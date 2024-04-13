@@ -25,8 +25,7 @@ var es = __webpack_require__(1225);
 
 function Attendance_Attendance() {
     return (react.createElement("div", { className: Attendance.researchDirectionWrap },
-        react.createElement("div", { className: Attendance.title }, "Attendance - \u4E0E\u4F1A\u786E\u8BA4"),
-        react.createElement("div", { className: Attendance.content })));
+        react.createElement("div", { className: Attendance.title }, "Attendance - \u4E0E\u4F1A\u786E\u8BA4")));
 }
 var mapStateToProps = function (_a) {
     var common = _a.common;

@@ -52067,7 +52067,7 @@ var Introduction = lib_default()({
     loading: components_DelayLoading,
 });
 var CallForPapers = lib_default()({
-    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(361), __webpack_require__.e(508)]).then(__webpack_require__.bind(__webpack_require__, 461)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(742), __webpack_require__.e(159), __webpack_require__.e(141)]).then(__webpack_require__.bind(__webpack_require__, 6141)); },
     loading: components_DelayLoading,
 });
 var Attendance = lib_default()({
@@ -52075,7 +52075,7 @@ var Attendance = lib_default()({
     loading: components_DelayLoading,
 });
 var Speakers = lib_default()({
-    loader: function () { return __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(__webpack_require__, 3002)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(159), __webpack_require__.e(2)]).then(__webpack_require__.bind(__webpack_require__, 3002)); },
     loading: components_DelayLoading,
 });
 var Transportation = lib_default()({
@@ -54393,7 +54393,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "_chunk." + {"2":"fa2c73eb","292":"61c0c0f2","300":"39ccec4e","315":"e99258cc","361":"7ad3d3ce","508":"c1c9ccb6","576":"44764817","622":"ab303a4d","723":"60581d06","842":"5850f0d3"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + "_chunk." + {"2":"e59a05a6","141":"f4fc602f","159":"8fcae530","292":"61c0c0f2","300":"39ccec4e","315":"e99258cc","576":"44764817","622":"ab303a4d","648":"aa9fb025","723":"8cdcb248","742":"f07da985","842":"5850f0d3"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54402,7 +54402,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"2":"2fd594cb","292":"c5df9c63","300":"15c885e0","508":"eeb9dd50","576":"41e2826c","622":"58545e9e","723":"847b8c7c","842":"bb0f92c5"}[chunkId] + ".chunk.css";
+/******/ 			return "css/" + chunkId + "." + {"2":"435e2319","141":"eeb9dd50","292":"c5df9c63","300":"15c885e0","576":"41e2826c","622":"58545e9e","723":"b8047305","842":"bb0f92c5"}[chunkId] + ".chunk.css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54594,7 +54594,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"2":1,"292":1,"300":1,"508":1,"576":1,"622":1,"723":1,"842":1};
+/******/ 			var cssChunks = {"2":1,"141":1,"292":1,"300":1,"576":1,"622":1,"723":1,"842":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
