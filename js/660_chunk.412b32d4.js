@@ -78,6 +78,11 @@ const src_asset_qr_namespaceObject = __webpack_require__.p + "images/qr.0fed63db
 // EXTERNAL MODULE: ./src/asset/map.jpg
 var map = __webpack_require__(385);
 ;// CONCATENATED MODULE: ./src/pages/CallForPapers/index.tsx
+var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 
 
 
@@ -867,13 +872,12 @@ function CallForPapers_CallForPapers() {
             position: '湖南大学 逸夫楼'
         },
     ];
-    var trafficColumns = [
-        {
+    var isSmallScreen = window.innerWidth < 1024;
+    var desArr = isSmallScreen ? [] : [{
             title: '终点',
             key: 'des',
             dataIndex: 'des',
             width: '25%',
-            hidden: isSmallScreen,
             align: 'center',
             render: function (text, record, index) {
                 var previousRow = trafficData[index - 1];
@@ -899,7 +903,8 @@ function CallForPapers_CallForPapers() {
                     },
                 };
             },
-        },
+        }];
+    var trafficColumns = __spreadArray(__spreadArray([], desArr), [
         {
             title: '起点',
             dataIndex: 'start',
@@ -946,7 +951,7 @@ function CallForPapers_CallForPapers() {
             align: 'center',
             render: function (text) { return react.createElement("span", { dangerouslySetInnerHTML: { __html: text } }); },
         }
-    ];
+    ]);
     var trafficData = [
         {
             des: '湖南大学南校区',
