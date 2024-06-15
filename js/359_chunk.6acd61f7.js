@@ -20,7 +20,7 @@ var react = __webpack_require__(6540);
 // EXTERNAL MODULE: ./node_modules/react-redux/es/index.js + 20 modules
 var es = __webpack_require__(1225);
 ;// CONCATENATED MODULE: ./src/asset/hotel1.jpg
-const hotel1_namespaceObject = __webpack_require__.p + "images/hotel1.af4f8fef..jpg";
+const hotel1_namespaceObject = __webpack_require__.p + "images/hotel1.246f1662..jpg";
 ;// CONCATENATED MODULE: ./src/asset/hotel2.jpg
 const hotel2_namespaceObject = __webpack_require__.p + "images/hotel2.5945c7f2..jpg";
 ;// CONCATENATED MODULE: ./src/pages/Accommodation/index.tsx
