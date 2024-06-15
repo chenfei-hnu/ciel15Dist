@@ -102,6 +102,8 @@ function Speakers_Speakers() {
             title: '报告人',
             key: 'name',
             dataIndex: 'name',
+            width: '40%',
+            align: 'center',
             render: function (_, record) { return (react.createElement("div", { className: Speakers.nameCol, style: { wordWrap: 'break-word', wordBreak: 'break-word' } },
                 react.createElement("div", null, record.name),
                 react.createElement("div", null, record.university))); },
@@ -109,6 +111,7 @@ function Speakers_Speakers() {
         {
             title: '报告主题',
             dataIndex: 'title',
+            align: 'center',
             className: Speakers.titleCol,
             key: 'title',
         }

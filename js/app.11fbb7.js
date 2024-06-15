@@ -52067,27 +52067,27 @@ var Introduction = lib_default()({
     loading: components_DelayLoading,
 });
 var CallForPapers = lib_default()({
-    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(742), __webpack_require__.e(159), __webpack_require__.e(857)]).then(__webpack_require__.bind(__webpack_require__, 4173)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(264), __webpack_require__.e(889), __webpack_require__.e(742), __webpack_require__.e(159), __webpack_require__.e(660)]).then(__webpack_require__.bind(__webpack_require__, 3946)); },
     loading: components_DelayLoading,
 });
 var Attendance = lib_default()({
-    loader: function () { return __webpack_require__.e(/* import() */ 723).then(__webpack_require__.bind(__webpack_require__, 9723)); },
+    loader: function () { return __webpack_require__.e(/* import() */ 300).then(__webpack_require__.bind(__webpack_require__, 9456)); },
     loading: components_DelayLoading,
 });
 var Speakers = lib_default()({
-    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(159), __webpack_require__.e(2)]).then(__webpack_require__.bind(__webpack_require__, 3002)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(264), __webpack_require__.e(889), __webpack_require__.e(159), __webpack_require__.e(2)]).then(__webpack_require__.bind(__webpack_require__, 3002)); },
     loading: components_DelayLoading,
 });
 var Transportation = lib_default()({
-    loader: function () { return __webpack_require__.e(/* import() */ 842).then(__webpack_require__.bind(__webpack_require__, 2842)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(264), __webpack_require__.e(644)]).then(__webpack_require__.bind(__webpack_require__, 2341)); },
     loading: components_DelayLoading,
 });
 var Contact = lib_default()({
-    loader: function () { return __webpack_require__.e(/* import() */ 300).then(__webpack_require__.bind(__webpack_require__, 6300)); },
+    loader: function () { return __webpack_require__.e(/* import() */ 919).then(__webpack_require__.bind(__webpack_require__, 6300)); },
     loading: components_DelayLoading,
 });
 var Accommodation = lib_default()({
-    loader: function () { return __webpack_require__.e(/* import() */ 576).then(__webpack_require__.bind(__webpack_require__, 3576)); },
+    loader: function () { return __webpack_require__.e(/* import() */ 359).then(__webpack_require__.bind(__webpack_require__, 5150)); },
     loading: components_DelayLoading,
 });
 /* harmony default export */ const routes = ([
@@ -54393,7 +54393,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "_chunk." + {"2":"9df44cfe","159":"8fcae530","292":"61c0c0f2","300":"39ccec4e","315":"e99258cc","576":"44764817","622":"ab303a4d","648":"aa9fb025","723":"8cdcb248","742":"f07da985","842":"5850f0d3","857":"f6086898"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + "_chunk." + {"2":"d6e08e54","159":"8fcae530","264":"c8bcfe89","292":"06952ed9","300":"faaed963","315":"e99258cc","359":"8c38b76f","622":"ab303a4d","644":"40fcfe82","660":"7a2749c4","742":"f07da985","889":"5ef666ab","919":"da8da4ea"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54402,7 +54402,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"2":"d671c984","292":"c5df9c63","300":"15c885e0","576":"41e2826c","622":"58545e9e","723":"b8047305","842":"bb0f92c5","857":"be03370c"}[chunkId] + ".chunk.css";
+/******/ 			return "css/" + chunkId + "." + {"2":"4b4bab08","292":"9bf2e736","300":"923fa1d6","359":"6cef5481","622":"58545e9e","644":"9952d170","660":"6fd767dc","919":"5d4157e9"}[chunkId] + ".chunk.css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54594,7 +54594,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"2":1,"292":1,"300":1,"576":1,"622":1,"723":1,"842":1,"857":1};
+/******/ 			var cssChunks = {"2":1,"292":1,"300":1,"359":1,"622":1,"644":1,"660":1,"919":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {

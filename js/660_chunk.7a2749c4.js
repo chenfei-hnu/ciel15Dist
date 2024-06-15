@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkreact_cli"] = self["webpackChunkreact_cli"] || []).push([[857],{
+(self["webpackChunkreact_cli"] = self["webpackChunkreact_cli"] || []).push([[660],{
 
-/***/ 4173:
+/***/ 3946:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var react = __webpack_require__(6540);
 ;// CONCATENATED MODULE: ./src/pages/CallForPapers/index.less
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const CallForPapers = ({"researchDirectionWrap":"index_researchDirectionWrap_D1T6ZM","title":"index_title__CJeYK","content":"index_content_Lxrg7e","clear":"index_clear_LcOSLD","mainTitle":"index_mainTitle_oTM5DL","listTitle":"index_listTitle_nSFfkw","imgCenter":"index_imgCenter_L9rB8g","partTitle":"index_partTitle_Pj5OnF","mt40":"index_mt40_llBGju","even":"index_even_I6_9qs","odd":"index_odd_h4d_rP","table":"index_table_cX0A65","timeTable":"index_timeTable_P9J1Qp","footer":"index_footer_L_ZiDC","nameCol":"index_nameCol_MinHZ0","titleCol":"index_titleCol_QqypCw","qrcode":"index_qrcode_bxR4DN","reporterWapper":"index_reporterWapper_jGIBOI","reporterRow":"index_reporterRow_iiDf1s","card":"index_card_cuFs0j","box":"index_box_eqJf57","imgDiv":"index_imgDiv_etUHes","botDiv":"index_botDiv_om74Pd","name":"index_name_NMU9Fn","left":"index_left_ezePn8","desc":"index_desc_ZKjRvD","row1":"index_row1_oZrU6l","row2":"index_row2_G5qK7e","row3":"index_row3_fm5D6D","row4":"index_row4_KJQ6Di","row5":"index_row5_I6tZgN"});
+/* harmony default export */ const CallForPapers = ({"researchDirectionWrap":"index_researchDirectionWrap_D1T6ZM","title":"index_title__CJeYK","content":"index_content_Lxrg7e","clear":"index_clear_LcOSLD","mainTitle":"index_mainTitle_oTM5DL","listTitle":"index_listTitle_nSFfkw","imgCenter":"index_imgCenter_L9rB8g","partTitle":"index_partTitle_Pj5OnF","mt20":"index_mt20_Jc5W4Y","mt40":"index_mt40_llBGju","mt60":"index_mt60_mv_xUq","mb60":"index_mb60_cnjCZd","even":"index_even_I6_9qs","odd":"index_odd_h4d_rP","table":"index_table_cX0A65","timeTable":"index_timeTable_P9J1Qp","footer":"index_footer_L_ZiDC","nameCol":"index_nameCol_MinHZ0","titleCol":"index_titleCol_QqypCw","qrcode":"index_qrcode_bxR4DN","reporterWapper":"index_reporterWapper_jGIBOI","reporterRow":"index_reporterRow_iiDf1s","card":"index_card_cuFs0j","box":"index_box_eqJf57","imgDiv":"index_imgDiv_etUHes","botDiv":"index_botDiv_om74Pd","name":"index_name_NMU9Fn","left":"index_left_ezePn8","desc":"index_desc_ZKjRvD","row1":"index_row1_oZrU6l","row2":"index_row2_G5qK7e","row3":"index_row3_fm5D6D","row4":"index_row4_KJQ6Di","row5":"index_row5_I6tZgN"});
 // EXTERNAL MODULE: ./node_modules/react-redux/es/index.js + 20 modules
 var es = __webpack_require__(1225);
 // EXTERNAL MODULE: ./node_modules/antd/es/table/index.js + 227 modules
@@ -75,8 +75,8 @@ var zzl = __webpack_require__(6229);
 const notice3_1_namespaceObject = __webpack_require__.p + "images/notice3_1.502316f0..jpg";
 ;// CONCATENATED MODULE: ./src/asset/qr.jpg
 const src_asset_qr_namespaceObject = __webpack_require__.p + "images/qr.0fed63db..jpg";
-;// CONCATENATED MODULE: ./src/asset/map.jpg
-const map_namespaceObject = __webpack_require__.p + "images/map.c36d6c8f..jpg";
+// EXTERNAL MODULE: ./src/asset/map.jpg
+var map = __webpack_require__(385);
 ;// CONCATENATED MODULE: ./src/pages/CallForPapers/index.tsx
 
 
@@ -116,6 +116,8 @@ function CallForPapers_CallForPapers() {
             title: '报告人',
             key: 'name',
             dataIndex: 'name',
+            width: '40%',
+            align: 'center',
             render: function (_, record) { return (react.createElement("div", { className: CallForPapers.nameCol, style: { wordWrap: 'break-word', wordBreak: 'break-word' } },
                 react.createElement("div", null, record.name),
                 react.createElement("div", null, record.university))); },
@@ -123,6 +125,7 @@ function CallForPapers_CallForPapers() {
         {
             title: '报告主题',
             dataIndex: 'title',
+            align: 'center',
             className: CallForPapers.titleCol,
             key: 'title',
         }
@@ -273,6 +276,7 @@ function CallForPapers_CallForPapers() {
             className: CallForPapers.dateCol,
             dataIndex: 'date',
             width: '25%',
+            align: 'center',
             render: function (text, record, index) {
                 var previousRow = d13morningPlanData[index - 1];
                 var nextRow = d13morningPlanData[index + 1];
@@ -304,6 +308,7 @@ function CallForPapers_CallForPapers() {
             className: CallForPapers.timeCol,
             key: 'time',
             width: '25%',
+            align: 'center',
         },
         {
             title: '内容',
@@ -311,6 +316,7 @@ function CallForPapers_CallForPapers() {
             className: CallForPapers.contentCol,
             key: 'content',
             width: '25%',
+            align: 'center',
             render: function (text, record, index) {
                 var previousRow = d13morningPlanData[index - 1];
                 var nextRow = d13morningPlanData[index + 1];
@@ -342,6 +348,7 @@ function CallForPapers_CallForPapers() {
             className: CallForPapers.positionCol,
             key: 'position',
             width: '25%',
+            align: 'center',
             render: function (text, record, index) {
                 var previousRow = d13morningPlanData[index - 1];
                 var nextRow = d13morningPlanData[index + 1];
@@ -428,6 +435,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.dateCol,
                     dataIndex: 'date',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d13afternoonPlanData[index - 1];
                         var nextRow = d13afternoonPlanData[index + 1];
@@ -459,6 +467,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.timeCol,
                     key: 'time',
                     width: '25%',
+                    align: 'center',
                 },
                 {
                     title: '内容',
@@ -466,6 +475,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.contentCol,
                     key: 'content',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d13afternoonPlanData[index - 1];
                         var nextRow = d13afternoonPlanData[index + 1];
@@ -497,6 +507,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.positionCol,
                     key: 'position',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d13afternoonPlanData[index - 1];
                         var nextRow = d13afternoonPlanData[index + 1];
@@ -555,6 +566,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.dateCol,
                     dataIndex: 'date',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14morningPlanData[index - 1];
                         var nextRow = d14morningPlanData[index + 1];
@@ -586,6 +598,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.timeCol,
                     key: 'time',
                     width: '25%',
+                    align: 'center',
                 },
                 {
                     title: '内容',
@@ -593,6 +606,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.contentCol,
                     key: 'content',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14morningPlanData[index - 1];
                         var nextRow = d14morningPlanData[index + 1];
@@ -624,6 +638,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.positionCol,
                     key: 'position',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14morningPlanData[index - 1];
                         var nextRow = d14morningPlanData[index + 1];
@@ -712,6 +727,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.dateCol,
                     dataIndex: 'date',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14afternoonPlanData[index - 1];
                         var nextRow = d14afternoonPlanData[index + 1];
@@ -743,6 +759,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.timeCol,
                     key: 'time',
                     width: '25%',
+                    align: 'center',
                 },
                 {
                     title: '内容',
@@ -750,6 +767,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.contentCol,
                     key: 'content',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14afternoonPlanData[index - 1];
                         var nextRow = d14afternoonPlanData[index + 1];
@@ -781,6 +799,7 @@ function CallForPapers_CallForPapers() {
                     className: CallForPapers.positionCol,
                     key: 'position',
                     width: '25%',
+                    align: 'center',
                     render: function (text, record, index) {
                         var previousRow = d14afternoonPlanData[index - 1];
                         var nextRow = d14afternoonPlanData[index + 1];
@@ -853,6 +872,7 @@ function CallForPapers_CallForPapers() {
             key: 'des',
             dataIndex: 'des',
             width: '25%',
+            align: 'center',
             render: function (text, record, index) {
                 var previousRow = trafficData[index - 1];
                 var nextRow = trafficData[index + 1];
@@ -883,6 +903,7 @@ function CallForPapers_CallForPapers() {
             dataIndex: 'start',
             key: 'start',
             width: '25%',
+            align: 'center',
             render: function (text, record, index) {
                 var previousRow = trafficData[index - 1];
                 var nextRow = trafficData[index + 1];
@@ -913,12 +934,15 @@ function CallForPapers_CallForPapers() {
             dataIndex: 'way',
             key: 'way',
             width: '25%',
+            align: 'center',
         },
         {
             title: '路线及时长',
             dataIndex: 'time',
             key: 'time',
             width: '25%',
+            align: 'center',
+            render: function (text) { return react.createElement("span", { dangerouslySetInnerHTML: { __html: text } }); },
         }
     ];
     var trafficData = [
@@ -926,49 +950,49 @@ function CallForPapers_CallForPapers() {
             des: '湖南大学南校区',
             start: '长沙黄花机场',
             way: '出租车',
-            time: '预计花费 95-110 元，约 1.25 小时'
+            time: '预计花费 95-110 元</br>约 1.25 小时'
         },
         {
             des: '湖南大学南校区',
             start: '长沙黄花机场',
             way: '地铁',
-            time: '6号线黄花机场站 - 6号线六沟垅站換乘 - 4号线湖南大学站 约 1.25 小时'
+            time: '6号线黄花机场站 - 6号线六沟垅站換乘 - 4号线湖南大学站</br>约 1.25 小时'
         },
         {
             des: '湖南大学南校区',
             start: '长沙黄花机场',
             way: '磁浮快线',
-            time: '磁浮快线机场站 - 磁浮快线高铁站换乘 - 4号线湖南大学站 约 1.25 小时'
+            time: '磁浮快线机场站 - 磁浮快线高铁站换乘 - 4号线湖南大学站</br>约 1.25 小时'
         },
         {
             des: '湖南大学南校区',
             start: '长沙高铁南站',
             way: '出租车',
-            time: '预计花费 45-60 元，时长约 50 分钟'
+            time: '预计花费 45-60 元，时长</br>约 50 分钟'
         },
         {
             des: '湖南大学南校区',
             start: '长沙高铁南站',
             way: '地铁',
-            time: '4号线长沙火车南站 - 4号线湖南大学站 约 40 分钟'
+            time: '4号线长沙火车南站 - 4号线湖南大学站</br>约 40 分钟'
         },
         {
             des: '湖南大学南校区',
             start: '长沙火车站',
             way: '出租车',
-            time: '预计花费 20-30 元，时长约 30分钟'
+            time: '预计花费 20-30 元，时长</br>约 30分钟'
         },
         {
             des: '湖南大学南校区',
             start: '长沙火车站',
             way: '地铁',
-            time: '2号线长沙火车站 - 2号线溁湾镇站换乘 - 4号线湖南大学站时长 约 30 分钟'
+            time: '2号线长沙火车站 - 2号线溁湾镇站换乘 - 4号线湖南大学站时长</br>约 30 分钟'
         },
         {
             des: '湖南大学南校区',
             start: '长沙火车站',
             way: '公交车',
-            time: '立珊专线:长沙火车站一湖南大学地铁站 约 30 分钟'
+            time: '立珊专线:长沙火车站一湖南大学地铁站</br>约 30 分钟'
         },
     ];
     var getRowClassName = function (record, index) {
@@ -979,10 +1003,12 @@ function CallForPapers_CallForPapers() {
         react.createElement("div", { className: CallForPapers.content },
             react.createElement("p", { className: CallForPapers.mainTitle }, "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "The 15th International Conference in Evolutionary Linguistics"),
+            react.createElement("p", { className: CallForPapers.mt60 }),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)\u4E09\u53F7\u901A\u77E5"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)Notice No.3"),
+            react.createElement("p", { className: CallForPapers.mb60 }),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E00\u3001\u4F1A\u8BAE\u4ECB\u7ECD"),
-            react.createElement("p", null, "\u4EE5\u65B0\u6587\u79D1\u5021\u5BFC\u7684\u8DE8\u5B66\u79D1\u89C6\u91CE\uFF0C\u6F14\u5316\u8BED\u8A00\u5B66\u4E0E\u4EBA\u7C7B\u5B66\u3001\u8003\u53E4\u5B66\u3001\u751F\u7269\u5B66\u3001\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u79D1\u5B66\u3001\u5FC3\u7406\u5B66\u548C\u8BA1\u7B97\u673A\u79D1\u5B66\u7B49\u5B66\u79D1\u4EA4\u53C9\u5171\u878D\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08International Conference in Evolutionary Linguistics, CIEL\uFF09\u662F\u7531\u56FD\u9645\u8457\u540D\u8BED\u8A00\u5B66\u5BB6\u738B\u58EB\u5143\u6559\u6388\u9996\u5021\u7684\uFF0C\u81F3\u4ECA\u5DF2\u7ECF\u5728\u6D77\u5185\u5916\u591A\u6240\u8457\u540D\u9AD8\u6821\u6210\u529F\u4E3E\u529E\u4E8614\u5C4A\uFF0C\u4EE5\u5F80\u5728\u5E7F\u5DDE\uFF082009\u5E74\uFF09\u3001\u5929\u6D25\uFF082010\u5E74\u30012015\u5E74\uFF09\u3001\u4E0A\u6D77\uFF082011\u5E74\u30012019\u5E74\uFF09\u3001\u5317\u4EAC\uFF082012\u5E74\uFF09\u3001\u53A6\u95E8\uFF082014\u5E74\uFF09\u3001\u7F8E\u56FD\u5370\u7B2C\u5B89\u7EB3\u5DDE\uFF082016\u5E74\uFF09\u3001\u6606\u660E\uFF082017\u5E74\uFF09\u3001\u5357\u4EAC\uFF082018\u5E74\uFF09\u3001\u5170\u5DDE\uFF082021\u5E74\uFF09\u3001\u6D4E\u5357\uFF082022\u5E74\uFF09\u548C\u9999\u6E2F\uFF082013\u5E74\u30012023\u5E74\uFF09\u5206\u522B\u6210\u529F\u4E3E\u529E\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u65E8\u5728\u5C55\u793A\u8BED\u8A00\u5B66\u7684\u65B0\u4EA4\u53C9\u89C6\u91CE\uFF0C\u5021\u5BFC\u65B0\u7684\u7814\u7A76\u624B\u6BB5\u65B9\u6CD5\uFF0C\u4E3A\u76F8\u5173\u9886\u57DF\u7684\u6D77\u5185\u5916\u5B66\u8005\u4EEC\u63D0\u4F9B\u8DE8\u5B66\u79D1\u56FD\u9645\u4EA4\u6D41\u5408\u4F5C\u673A\u4F1A\uFF0C\u5171\u540C\u63A8\u52A8\u6F14\u5316\u8BED\u8A00\u5B66\u7814\u7A76\u7684\u8FDB\u6B65\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u4EE5\u65B0\u6587\u79D1\u5021\u5BFC\u7684\u8DE8\u5B66\u79D1\u89C6\u91CE\uFF0C\u6F14\u5316\u8BED\u8A00\u5B66\u4E0E\u4EBA\u7C7B\u5B66\u3001\u8003\u53E4\u5B66\u3001\u751F\u7269\u5B66\u3001\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u79D1\u5B66\u3001\u5FC3\u7406\u5B66\u548C\u8BA1\u7B97\u673A\u79D1\u5B66\u7B49\u5B66\u79D1\u4EA4\u53C9\u5171\u878D\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08International Conference in Evolutionary Linguistics, CIEL\uFF09\u662F\u7531\u56FD\u9645\u8457\u540D\u8BED\u8A00\u5B66\u5BB6\u738B\u58EB\u5143\u6559\u6388\u9996\u5021\u7684\uFF0C\u81F3\u4ECA\u5DF2\u7ECF\u5728\u6D77\u5185\u5916\u591A\u6240\u8457\u540D\u9AD8\u6821\u6210\u529F\u4E3E\u529E\u4E8614\u5C4A\uFF0C\u4EE5\u5F80\u5728\u5E7F\u5DDE\uFF082009\u5E74\uFF09\u3001\u5929\u6D25\uFF082010\u5E74\u30012015\u5E74\uFF09\u3001\u4E0A\u6D77\uFF082011\u5E74\u30012019\u5E74\uFF09\u3001\u5317\u4EAC\uFF082012\u5E74\uFF09\u3001\u53A6\u95E8\uFF082014\u5E74\uFF09\u3001\u7F8E\u56FD\u5370\u7B2C\u5B89\u7EB3\u5DDE\uFF082016\u5E74\uFF09\u3001\u6606\u660E\uFF082017\u5E74\uFF09\u3001\u5357\u4EAC\uFF082018\u5E74\uFF09\u3001\u5170\u5DDE\uFF082021\u5E74\uFF09\u3001\u6D4E\u5357\uFF082022\u5E74\uFF09\u548C\u9999\u6E2F\uFF082013\u5E74\u30012023\u5E74\uFF09\u5206\u522B\u6210\u529F\u4E3E\u529E\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u65E8\u5728\u5C55\u793A\u8BED\u8A00\u5B66\u7684\u65B0\u4EA4\u53C9\u89C6\u91CE\uFF0C\u5021\u5BFC\u65B0\u7684\u7814\u7A76\u624B\u6BB5\u65B9\u6CD5\uFF0C\u4E3A\u76F8\u5173\u9886\u57DF\u7684\u6D77\u5185\u5916\u5B66\u8005\u4EEC\u63D0\u4F9B\u8DE8\u5B66\u79D1\u56FD\u9645\u4EA4\u6D41\u5408\u4F5C\u673A\u4F1A\uFF0C\u5171\u540C\u63A8\u52A8\u6F14\u5316\u8BED\u8A00\u5B66\u7814\u7A76\u7684\u8FDB\u6B65\u3002"),
             react.createElement("p", null,
                 "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08CIEL-15\uFF09\u5C06\u4E8E2024\u5E747\u670812\u65E5\u81F314\u65E5\u5728\u6E56\u5357\u5927\u5B66\u4E3E\u884C\uFF0C\u7531\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u4E3B\u529E\uFF0C\u6DF1\u5733\u5E02\u795E\u7ECF\u79D1\u5B66\u7814\u7A76\u9662\u534F\u529E\u3002",
                 react.createElement("b", null, "\u4F1A\u8BAE\u4E3B\u9898\uFF1A\u65B0\u6587\u79D1\u80CC\u666F\u4E0B\u8BED\u8A00\u6F14\u5316\u7684\u8DE8\u5B66\u79D1\u7814\u7A76\u3002"),
@@ -990,7 +1016,7 @@ function CallForPapers_CallForPapers() {
             react.createElement("p", { className: CallForPapers.imgCenter },
                 react.createElement("img", { src: notice3_1_namespaceObject })),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E8C\u3001\u4F1A\u8BAE\u8BAE\u9898"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\uFF081\uFF09\u6C49\u8BED\u53CA\u5176\u4ED6\u8BED\u8A00\u7684\u7956\u5148\uFF1B"),
                 react.createElement("li", null, "\uFF082\uFF09\u5178\u578B\u548C\u975E\u5178\u578B\u4EBA\u7FA4\u7684\u8BED\u8A00\u53D1\u5C55;"),
                 react.createElement("li", null, "\uFF083\uFF09\u8001\u9F84\u5316\u4E0E\u8BED\u8A00\u9000\u5316\uFF1B"),
@@ -1001,43 +1027,43 @@ function CallForPapers_CallForPapers() {
                 react.createElement("li", null, "\uFF088\uFF09\u5927\u578B\u8BED\u8A00\u6A21\u578B\u7684\u53D1\u5C55\u4E0E\u6F14\u5316\uFF1B"),
                 react.createElement("li", null, "\uFF089\uFF09\u5176\u4ED6\u8BED\u8A00\u76F8\u5173\u7684\u8BAE\u9898\u3002")),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E09\u3001\u4F1A\u8BAE\u5F62\u5F0F"),
-            react.createElement("p", { className: CallForPapers.mt40 }, "\u672C\u6B21\u56FD\u9645\u7814\u8BA8\u4F1A\u62DF\u8BBE\u7ACB\u4E09\u5927\u62A5\u544A\u5F62\u5F0F\uFF1A\u4E3B\u65E8\u62A5\u544A\u3001\u53E3\u5934\u62A5\u544A\u3001\u6D77\u62A5\u5C55\u793A\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u672C\u6B21\u56FD\u9645\u7814\u8BA8\u4F1A\u62DF\u8BBE\u7ACB\u4E09\u5927\u62A5\u544A\u5F62\u5F0F\uFF1A\u4E3B\u65E8\u62A5\u544A\u3001\u53E3\u5934\u62A5\u544A\u3001\u6D77\u62A5\u5C55\u793A\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
             react.createElement("div", { className: CallForPapers.subTitle }, "1.\t\u5927\u4F1A\u4E3B\u65E8\u62A5\u544A\uFF08\u4EE5\u59D3\u6C0F\u5B57\u6BCD\u4E3A\u5E8F\uFF09"),
             react.createElement(table/* default */.A, { pagination: false, columns: zhColumns, className: CallForPapers.table, showHeader: false, rowClassName: getRowClassName, dataSource: zhData }),
             react.createElement("div", { className: CallForPapers.subTitle }, "2.\t\u7279\u9080\u53E3\u5934\u62A5\u544A"),
-            react.createElement("p", null, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7ACB\u7279\u9080\u53E3\u5934\u62A5\u544A\uFF0C\u5177\u4F53\u4FE1\u606F\u5982\u4E0B\uFF08\u6309\u7167\u59D3\u6C0F\u9996\u5B57\u6BCD\u6392\u5E8F\uFF09\uFF1A"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7ACB\u7279\u9080\u53E3\u5934\u62A5\u544A\uFF0C\u5177\u4F53\u4FE1\u606F\u5982\u4E0B\uFF08\u6309\u7167\u59D3\u6C0F\u9996\u5B57\u6BCD\u6392\u5E8F\uFF09\uFF1A"),
             react.createElement(table/* default */.A, { pagination: false, columns: zhColumns, className: CallForPapers.table, showHeader: false, rowClassName: getRowClassName, dataSource: specialData }),
             react.createElement("p", { className: CallForPapers.subTitle }, "3.\t\u4E00\u822C\u53E3\u5934\u62A5\u544A\u3002"),
-            react.createElement("p", null, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7F6E10\u4E2A\u5206\u4F1A\u573A\uFF0C\u5165\u9009\u7684\u53E3\u5934\u6C47\u62A5\u5C06\u5728\u5404\u5206\u4F1A\u573A\u8FDB\u884C\u4EA4\u6D41\uFF0C\u6BCF\u4E2A\u62A5\u544A12\u5206\u949F\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7F6E10\u4E2A\u5206\u4F1A\u573A\uFF0C\u5165\u9009\u7684\u53E3\u5934\u6C47\u62A5\u5C06\u5728\u5404\u5206\u4F1A\u573A\u8FDB\u884C\u4EA4\u6D41\uFF0C\u6BCF\u4E2A\u62A5\u544A12\u5206\u949F\u3002"),
             react.createElement("p", { className: CallForPapers.subTitle }, "4.\t\u6D77\u62A5\u5C55\u793A\u3002"),
-            react.createElement("p", null, "\u5927\u4F1A\u62DF\u8BBE\u7ACB\u4E13\u95E8\u7684\u8BBA\u6587\u6D77\u62A5\u5C55\u793A\u533A\u57DF\uFF0C\u65B9\u4FBF\u4E0E\u4F1A\u4EE3\u8868\u4E00\u5BF9\u4E00\u8BA8\u8BBA\u4EA4\u6D41\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u5927\u4F1A\u62DF\u8BBE\u7ACB\u4E13\u95E8\u7684\u8BBA\u6587\u6D77\u62A5\u5C55\u793A\u533A\u57DF\uFF0C\u65B9\u4FBF\u4E0E\u4F1A\u4EE3\u8868\u4E00\u5BF9\u4E00\u8BA8\u8BBA\u4EA4\u6D41\u3002"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u56DB\u3001\u4F1A\u8BAE\u8BAE\u7A0B"),
-            react.createElement("p", null, "7\u670812\u65E5\u5168\u5929\u7B7E\u5230\u6CE8\u518C\uFF0C7\u670813-14\u65E5\u5168\u5929\u8FDB\u884C\u4F1A\u8BAE\u62A5\u544A\u53CA\u6D77\u62A5\u5C55\u793A\u3002\u5177\u4F53\u8BAE\u7A0B\u5982\u4E0B\u8868\uFF1A"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "7\u670812\u65E5\u5168\u5929\u7B7E\u5230\u6CE8\u518C\uFF0C7\u670813-14\u65E5\u5168\u5929\u8FDB\u884C\u4F1A\u8BAE\u62A5\u544A\u53CA\u6D77\u62A5\u5C55\u793A\u3002\u5177\u4F53\u8BAE\u7A0B\u5982\u4E0B\u8868\uFF1A"),
             react.createElement(table/* default */.A, { pagination: false, columns: d13morningPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d13morningPlanData }),
             react.createElement(table/* default */.A, { pagination: false, columns: d13afternoonPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d13afternoonPlanData }),
             react.createElement(table/* default */.A, { pagination: false, columns: d14morningPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d14morningPlanData }),
             react.createElement(table/* default */.A, { pagination: false, columns: d14afternoonPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d14afternoonPlanData, footer: function () { return react.createElement("div", { className: CallForPapers.footer }, "\u665A\u9910"); } }),
             react.createElement("p", { className: CallForPapers.mt40 }),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E94\u3001\u4F1A\u8BAE\u8BAE\u7A0B"),
-            react.createElement("p", null, "(1) \u4F1A\u52A1\u8D39\uFF1A\u4EBA\u6C11\u5E01800\u5143\uFF0C\u5168\u65E5\u5236\u7814\u7A76\u751F\u51ED\u5B66\u751F\u8BC1500\u5143\uFF0C\u7B7E\u5230\u5F53\u65E5\u73B0\u573A\u7F34\u8D39\u5E76\u83B7\u53D6\u7535\u5B50\u53D1\u7968\u3002\u4F1A\u52A1\u8D39\u6DB5\u76D6\u53C2\u52A0\u4F1A\u8BAE\u671F\u95F4\u7684\u7528\u9910\u3001\u8336\u6B47\u4EE5\u53CA\u4F1A\u8BAE\u8D44\u6599\u8D39\u3002\u4F4F\u5BBF\u8D39\u548C\u4EA4\u901A\u8D39\u9700\u81EA\u7406\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "(1) \u4F1A\u52A1\u8D39\uFF1A\u4EBA\u6C11\u5E01800\u5143\uFF0C\u5168\u65E5\u5236\u7814\u7A76\u751F\u51ED\u5B66\u751F\u8BC1500\u5143\uFF0C\u7B7E\u5230\u5F53\u65E5\u73B0\u573A\u7F34\u8D39\u5E76\u83B7\u53D6\u7535\u5B50\u53D1\u7968\u3002\u4F1A\u52A1\u8D39\u6DB5\u76D6\u53C2\u52A0\u4F1A\u8BAE\u671F\u95F4\u7684\u7528\u9910\u3001\u8336\u6B47\u4EE5\u53CA\u4F1A\u8BAE\u8D44\u6599\u8D39\u3002\u4F4F\u5BBF\u8D39\u548C\u4EA4\u901A\u8D39\u9700\u81EA\u7406\u3002"),
             react.createElement("p", null, "(2) \u672C\u6B21\u4F1A\u8BAE\u6536\u7A3F\u65E5\u671F\u76EE\u524D\u5DF2\u7ECF\u622A\u6B62\u3002\u4E3A\u6EE1\u8DB3\u5404\u4F4D\u5E08\u751F\u7684\u53C2\u4F1A\u9700\u6C42\uFF0C\u7ECF\u7EC4\u59D4\u4F1A\u5546\u8BAE\uFF0C\u7EE7\u7EED\u63A5\u53D7\u5927\u4F1A\u65C1\u542C\u540D\u989D\uFF0C\u65C1\u542C\u53C2\u4F1A\u8001\u5E08\u6216\u8005\u5B66\u751F\u9700\u7F34\u7EB3\u4F1A\u52A1\u8D39\uFF0C\u65E0\u9700\u63D0\u4EA4\u6458\u8981\uFF0C\u4E5F\u4E0D\u518D\u5B89\u6392\u4F1A\u8BAE\u62A5\u544A\u3002\u6709\u610F\u65C1\u542C\u8005\u8BF7\u4E8E6\u670825\u65E5\u524D\u586B\u5199\u62A5\u540D\u94FE\u63A5(https://www.wjx.top/vm/wkc2hqL.aspx#)\u6216\u626B\u63CF\u4E0B\u65B9\u4E8C\u7EF4\u7801\u5728\u7EBF\u62A5\u540D\uFF0C\u901A\u8FC7\u62A5\u540D\u5BA1\u6838\u540E\uFF0C\u4F1A\u52A1\u4E13\u5BB6\u7EC4\u5C06\u5728\u4E94\u4E2A\u5DE5\u4F5C\u65E5\u5185\u901A\u8FC7\u90AE\u7BB1\u53D1\u51FA\u6B63\u5F0F\u53C2\u4F1A\u901A\u77E5\u548C\u4F1A\u8BAE\u5177\u4F53\u5B89\u6392\u3002"),
             react.createElement("p", { className: CallForPapers.imgCenter },
                 react.createElement("img", { src: src_asset_qr_namespaceObject })),
             react.createElement("p", null, "\uFF08\u6CE8\uFF1A\u7531\u4E8E\u65C1\u542C\u5E2D\u4F4D\u4E0E\u573A\u5730\u9650\u5236\uFF0C\u6821\u5916\u62A5\u540D\u4EBA\u6570\u9650\u5B9A\u4E3A60\u4EBA\uFF0C\u5148\u5230\u5148\u5F97\u3002\u5982\u672A\u80FD\u6EE1\u8DB3\u60A8\u7684\u62A5\u540D\u9700\u6C42\uFF0C\u656C\u8BF7\u8C05\u89E3\uFF01\uFF09"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u516D\u3001\u4EA4\u901A\u53CA\u4F4F\u5BBF"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF081\uFF09\u4F1A\u8BAE\u5730\u70B9"),
-            react.createElement("p", null, "\u4E3B\u65E8\u62A5\u544A\uFF1A\u6E56\u5357\u5927\u5B66\u9038\u592B\u697C \u4E3B\u62A5\u544A\u5385"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u4E3B\u65E8\u62A5\u544A\uFF1A\u6E56\u5357\u5927\u5B66\u9038\u592B\u697C \u4E3B\u62A5\u544A\u5385"),
             react.createElement("p", null, "\u53E3\u5934\u6C47\u62A5\uFF1A\u590D\u4E34\u820D201\u3001203\u3001204\u3001208\u3001209"),
             react.createElement("p", null, "\u6D77\u62A5\u5C55\u793A\uFF1A\u590D\u4E34\u820D\u5927\u5385"),
             react.createElement("p", { className: CallForPapers.imgCenter },
-                react.createElement("img", { src: map_namespaceObject })),
+                react.createElement("img", { src: map })),
             react.createElement("p", { className: CallForPapers.imgCenter }, "\u6E56\u5357\u5927\u5B66\u6821\u56ED\u5730\u56FE"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF082\uFF09\u4EA4\u901A\u65B9\u5F0F"),
             react.createElement(table/* default */.A, { pagination: false, columns: trafficColumns, className: CallForPapers.table, showHeader: true, dataSource: trafficData }),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF083\uFF09\u4F1A\u8BAE\u63A8\u8350\u9152\u5E97\uFF1A\u6E56\u5357\u5927\u5B66\u96C6\u8D24\u5BBE\u9986"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E03\u3001\u4F1A\u8BAE\u7EC4\u7EC7"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF081\uFF09\u62A5\u540D\u8054\u7CFB\u8001\u5E08\uFF1A"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\u6731\u8001\u5E08\uFF1A18291849054"),
                 react.createElement("li", null, "\u5321\u8001\u5E08\uFF1A15274656369"),
                 react.createElement("li", null, "\u59DC\u8001\u5E08\uFF1A18273128651")),
@@ -1045,15 +1071,16 @@ function CallForPapers_CallForPapers() {
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF083\uFF09\u4E3B\u5E2D\u56E2\uFF1A\u9648\u98DE\u3001\u5F6D\u521A\u3001\u8C2D\u529B\u6D77"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF084\uFF09\u4F1A\u8BAE\u90AE\u7BB1\uFF1Aciel15hnu@gmail.com"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\uFF085\uFF09\u4F1A\u8BAE\u4E3B\u9875\uFF1Ahttp://www.ciel-15.com"),
-            react.createElement("p", { className: CallForPapers.mt40 }),
+            react.createElement("p", { className: CallForPapers.mt60 }),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)\u4E8C\u53F7\u901A\u77E5"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)Notice No.2"),
+            react.createElement("p", { className: CallForPapers.mb60 }),
             react.createElement("p", null, "\u4EE5\u65B0\u6587\u79D1\u5021\u5BFC\u7684\u8DE8\u5B66\u79D1\u89C6\u91CE\uFF0C\u6F14\u5316\u8BED\u8A00\u5B66\u4E0E\u4EBA\u7C7B\u5B66\u3001\u8003\u53E4\u5B66\u3001\u751F\u7269\u5B66\u3001\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u79D1\u5B66\u3001\u5FC3\u7406\u5B66\u548C\u8BA1\u7B97\u673A\u79D1\u5B66\u7B49\u5B66\u79D1\u4EA4\u53C9\u5171\u878D\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08International Conference in Evolutionary Linguistics, CIEL\uFF09\u662F\u7531\u56FD\u9645\u8457\u540D\u8BED\u8A00\u5B66\u5BB6\u738B\u58EB\u5143\u6559\u6388\u9996\u5021\u7684\uFF0C\u81F3\u4ECA\u5DF2\u7ECF\u5728\u6D77\u5185\u5916\u591A\u6240\u8457\u540D\u9AD8\u6821\u6210\u529F\u4E3E\u529E\u4E8614\u5C4A\uFF0C\u4EE5\u5F80\u5728\u5E7F\u5DDE\uFF082009\u5E74\uFF09\u3001\u5929\u6D25\uFF082010\u5E74\u30012015\u5E74\uFF09\u3001\u4E0A\u6D77\uFF082011\u5E74\u30012019\u5E74\uFF09\u3001\u5317\u4EAC\uFF082012\u5E74\uFF09\u3001\u53A6\u95E8\uFF082014\u5E74\uFF09\u3001\u7F8E\u56FD\u5370\u7B2C\u5B89\u7EB3\u5DDE\uFF082016\u5E74\uFF09\u3001\u6606\u660E\uFF082017\u5E74\uFF09\u3001\u5357\u4EAC\uFF082018\u5E74\uFF09\u3001\u5170\u5DDE\uFF082021\u5E74\uFF09\u3001\u6D4E\u5357\uFF082022\u5E74\uFF09\u548C\u9999\u6E2F\uFF082013\u5E74\u30012023\u5E74\uFF09\u5206\u522B\u6210\u529F\u4E3E\u529E\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u65E8\u5728\u5C55\u793A\u8BED\u8A00\u5B66\u7684\u65B0\u4EA4\u53C9\u89C6\u91CE\uFF0C\u5021\u5BFC\u65B0\u7684\u7814\u7A76\u624B\u6BB5\u65B9\u6CD5\uFF0C\u4E3A\u76F8\u5173\u9886\u57DF\u7684\u6D77\u5185\u5916\u5B66\u8005\u4EEC\u63D0\u4F9B\u8DE8\u5B66\u79D1\u56FD\u9645\u4EA4\u6D41\u5408\u4F5C\u673A\u4F1A\uFF0C\u5171\u540C\u63A8\u52A8\u6F14\u5316\u8BED\u8A00\u5B66\u7814\u7A76\u7684\u8FDB\u6B65\u3002"),
             react.createElement("p", null, "From an interdisciplinary perspective, evolutionary linguistics interacts with anthropology, archeology, biology, linguistics, neuroscience, psychology, and computer science. Collaborative empirical research among these areas will make new contributions to evolutionary linguistics, both in breadth and depth. The International Conference in Evolutionary Linguistics (CIEL) was initiated by Professor WANG S-Y. William. Through CIEL, we wish to promote international interaction and boost interdisciplinary collaborations. Previous CIEL conferences in Guangzhou (2009), Tianjin (2010, 2015), Shanghai (2011, 2019), Beijing (2012), Xiamen (2014), Indiana USA (2016), Kunming (2017), Nanjing (2018), Lanzhou (2021), Jinan (2022), and Hong Kong (2013, 2023) were all held in the same spirit."),
             react.createElement("p", null, "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08CIEL-15\uFF09\u5C06\u4E8E2024\u5E747\u670812\u65E5\u81F314\u65E5\u5728\u6E56\u5357\u5927\u5B66\u4E3E\u884C\uFF0C\u7531\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u4E3B\u529E\uFF0C\u6DF1\u5733\u5E02\u795E\u7ECF\u79D1\u5B66\u7814\u7A76\u9662\u534F\u529E\u3002\u5C4A\u65F6\u5C06\u9080\u8BF7\u56FD\u5185\u5916\u672C\u9886\u57DF\u7684\u8457\u540D\u5B66\u8005\u505A\u5927\u4F1A\u7684\u4E3B\u65E8\u62A5\u544A\u3002\u4ECA\u606D\u9080\u56FD\u5185\u5916\u4E13\u5BB6\u3001\u5B66\u8005\u3001\u6559\u5E08\u3001\u7814\u7A76\u751F\u62E8\u5197\u4E0E\u4F1A\uFF01\u73B0\u5C06\u4F1A\u8BAE\u65E5\u7A0B\u53CA\u6458\u8981\u63D0\u4EA4\u7B49\u76F8\u5173\u4E8B\u9879\u901A\u77E5\u5982\u4E0B\uFF1A"),
             react.createElement("p", null, "The 15th International Conference in Evolutionary Linguistics (CIEL-15) will be held during July 12-14, 2024 at Hunan University. CIEL-15 will be held by School of Foreign Languages, Hunan University, and co-organized by the Shenzhen Institute of Neuroscience. CIEL-15 will invite scholars of representative and influential figures in the relevant fields from both domestic and international areas to deliver keynote speeches. We cordially invite all scholars to attend! Please find below the conference schedule and details regarding the submission of abstracts and other related matters:"),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E00\u3001\u4F1A\u8BAE\u8BAE\u9898"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\uFF081\uFF09\u6C49\u8BED\u53CA\u5176\u4ED6\u8BED\u8A00\u7684\u7956\u5148\uFF1B"),
                 react.createElement("li", null, "\uFF082\uFF09\u5178\u578B\u548C\u975E\u5178\u578B\u4EBA\u7FA4\u7684\u8BED\u8A00\u53D1\u5C55;"),
                 react.createElement("li", null, "\uFF083\uFF09\u8001\u9F84\u5316\u4E0E\u8BED\u8A00\u9000\u5316\uFF1B"),
@@ -1064,7 +1091,7 @@ function CallForPapers_CallForPapers() {
                 react.createElement("li", null, "\uFF088\uFF09\u5927\u578B\u8BED\u8A00\u6A21\u578B\u7684\u53D1\u5C55\u4E0E\u6F14\u5316\uFF1B"),
                 react.createElement("li", null, "\uFF089\uFF09\u5176\u4ED6\u8BED\u8A00\u76F8\u5173\u7684\u8BAE\u9898\u3002")),
             react.createElement("div", { className: CallForPapers.listTitle }, "I.Conference Topics"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tThe proto-language of Chinese and other languages;"),
                 react.createElement("li", null, "2.\tLanguage development in typical and atypical populations;"),
                 react.createElement("li", null, "3.\tAgeing and language degradation;"),
@@ -1075,10 +1102,10 @@ function CallForPapers_CallForPapers() {
                 react.createElement("li", null, "8.\tEvolution of large language model;"),
                 react.createElement("li", null, "9.\tOther language-related research.")),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E8C\u3001\u4F1A\u8BAE\u5F62\u5F0F"),
-            react.createElement("p", { className: CallForPapers.mt40 }, "\u672C\u6B21\u56FD\u9645\u7814\u8BA8\u4F1A\u62DF\u8BBE\u7ACB\u4E09\u5927\u62A5\u544A\u5F62\u5F0F\uFF1A\u4E3B\u65E8\u62A5\u544A\u3001\u53E3\u5934\u62A5\u544A\u3001\u6D77\u62A5\u5C55\u793A\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
+            react.createElement("p", { className: CallForPapers.mt20 }, "\u672C\u6B21\u56FD\u9645\u7814\u8BA8\u4F1A\u62DF\u8BBE\u7ACB\u4E09\u5927\u62A5\u544A\u5F62\u5F0F\uFF1A\u4E3B\u65E8\u62A5\u544A\u3001\u53E3\u5934\u62A5\u544A\u3001\u6D77\u62A5\u5C55\u793A\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
             react.createElement("div", { className: CallForPapers.subTitle }, "1.\t\u5927\u4F1A\u4E3B\u65E8\u62A5\u544A\uFF08\u4EE5\u59D3\u6C0F\u5B57\u6BCD\u4E3A\u5E8F\uFF09"),
             react.createElement("div", { className: CallForPapers.listTitle }, "II.\tConference Format"),
-            react.createElement("p", { className: CallForPapers.mt40 }, "The conference will set up three types of presentations: keynote speeches, oral presentations, and poster sessions. The academic languages of the conference will be Mandarin Chinese and English."),
+            react.createElement("p", { className: CallForPapers.mt20 }, "The conference will set up three types of presentations: keynote speeches, oral presentations, and poster sessions. The academic languages of the conference will be Mandarin Chinese and English."),
             react.createElement("div", { className: CallForPapers.subTitle }, "1.\tKeynote Speeches (in alphabetical order by last name)"),
             react.createElement(table/* default */.A, { pagination: false, columns: zhColumns, className: CallForPapers.table, showHeader: false, rowClassName: getRowClassName, dataSource: zhData }),
             react.createElement("p", { className: CallForPapers.subTitle }, "2.\t\u53E3\u5934\u62A5\u544A\u3002\u6BCF\u4F4D\u5165\u9009\u7684\u53D1\u8A00\u4EBA\u8FDB\u884C\u53E3\u5934\u6C47\u62A5\u4E0E\u4EA4\u6D41\u3002"),
@@ -1086,28 +1113,30 @@ function CallForPapers_CallForPapers() {
             react.createElement("p", { className: CallForPapers.subTitle }, "3.\t\u6D77\u62A5\u5C55\u793A\u3002\u5927\u4F1A\u62DF\u8BBE\u7ACB\u4E13\u95E8\u7684\u8BBA\u6587\u6D77\u62A5\u5C55\u793A\u533A\u57DF\uFF0C\u65B9\u4FBF\u4E0E\u4F1A\u4EE3\u8868\u4E00\u5BF9\u4E00\u8BA8\u8BBA\u4EA4\u6D41\u3002"),
             react.createElement("p", { className: CallForPapers.subTitle }, "3.\tPoster Sessions. The conference will set up a dedicated area for poster presentations to facilitate one-to-one discussions among participants."),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E09\u3001\u62A5\u540D\u6CE8\u518C"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\t\u4F1A\u8BAE\u65E5\u7A0B\uFF1A7\u670812\u65E5\u5168\u5929\u7B7E\u5230\u6CE8\u518C\uFF0C7\u670813-14\u65E5\u5168\u5929\u8FDB\u884C\u4F1A\u8BAE\u62A5\u544A\u53CA\u6D77\u62A5\u5C55\u793A\u3002"),
                 react.createElement("li", null, "2.\t\u4F1A\u8BAE\u5730\u70B9\uFF1A\u6E56\u5357\u5927\u5B66\u9038\u592B\u697C\u3001\u5916\u56FD\u8BED\u5B66\u9662\u62A5\u544A\u5385\u3002;"),
                 react.createElement("li", null, "3.\t\u4F1A\u52A1\u8D39\uFF1A\u4EBA\u6C11\u5E01800\u5143\uFF0C\u5168\u65E5\u5236\u7814\u7A76\u751F\u51ED\u5B66\u751F\u8BC1500\u5143\uFF0C\u7B7E\u5230\u5F53\u65E5\u73B0\u573A\u7F34\u8D39\u5E76\u83B7\u53D6\u7535\u5B50\u53D1\u7968\u3002\u4F1A\u52A1\u8D39\u6DB5\u76D6\u53C2\u52A0\u4F1A\u8BAE\u671F\u95F4\u7684\u7528\u9910\u3001\u8336\u6B47\u4EE5\u53CA\u4F1A\u8BAE\u8D44\u6599\u8D39\u3002\u4F4F\u5BBF\u8D39\u548C\u4EA4\u901A\u8D39\u9700\u81EA\u7406\u3002")),
             react.createElement("div", { className: CallForPapers.listTitle }, "III.Registration"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tConference Schedule: Full-day registration on July 12th, followed by conference presentations and poster sessions throughout July 13th and 14th."),
                 react.createElement("li", null, "2.\tConference Venue: Yifu Building and academic hall of School of Foreign Languages at Hunan University."),
                 react.createElement("li", null, "3.\tRegistration Fee: RMB 800 for general attendees and RMB 500 for full-time graduate students upon presentation of a valid student ID. Fees are to be paid on-site at the time of registration, and an electronic receipt will be issued to participants. The fee includes meals, coffee breaks, and conference materials. Please note that accommodation and travel expenses are the responsibility of the participants.")),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u56DB\u3001\u8BBA\u6587\u5F81\u7A3F\u53CA\u6458\u8981\u63D0\u4EA4\u8981\u6C42"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\t\u6BCF\u4F4D\u53C2\u4F1A\u4EE3\u8868\u5747\u9700\u63D0\u4EA4\u8BBA\u6587\u6458\u8981\u3002\u8BF7\u5728\u6458\u8981\u4E2D\u8BE6\u7EC6\u6807\u660E\u4F5C\u8005\u59D3\u540D\uFF08\u62A5\u544A\u4EBA\u7684\u540D\u5B57\u7528\u4E0B\u5212\u7EBF\u7A81\u51FA\u663E\u793A\uFF09\uFF0C\u5355\u4F4D\u540D\u79F0\u4EE5\u53CA\u7535\u5B50\u90AE\u7BB1\u7B49\u3002"),
                 react.createElement("li", null,
                     react.createElement("p", null, "2.\t\u6295\u7A3F\u622A\u6B62\u65E5\u671F\uFF1A\u6709\u610F\u53C2\u4F1A\u4EE3\u8868\u8BF7\u57282024\u5E745\u670810\u65E5\u524D\u628A\u53C2\u4F1A\u8BE6\u7EC6\u4E2D\u6587\uFF08600-800\u5B57\uFF09\u6216\u82F1\u6587\u6458\u8981\uFF08400-600\u5B57\uFF09\u548C\u53C2\u4F1A\u56DE\u6267\uFF08\u89C1\u9644\u4EF61\u6216\u8005\u626B\u63CF\u4E0B\u65B9\u4E8C\u7EF4\u7801\u4E0B\u8F7D\uFF0C\u53C2\u4F1A\u4EBA\u5458\u5747\u9700\u63D0\u4EA4\uFF09\u4EE5word\u683C\u5F0F\u53D1\u9001\u81F3\u6307\u5B9A\u90AE\u7BB1\uFF1Aciel15hnu@gmail.com\u3002\u6295\u7A3F\u90AE\u4EF6\u8BF7\u547D\u540D\u4E3A\u201CCIEL15-\u59D3\u540D-\u5355\u4F4D-\u8EAB\u4EFD\uFF08\u6559\u5E08\u6216\u8005\u5B66\u751F\uFF09\u201D\u3002\u5C4A\u65F6\u7EC4\u59D4\u4F1A\u5C06\u7EC4\u7EC7\u4E13\u5BB6\u5BF9\u6458\u8981\u8FDB\u884C\u8BC4\u5BA1\uFF0C\u5C06\u4E8E2024\u5E745\u670831\u65E5\u524D\u53D1\u51FA\u6B63\u5F0F\u9080\u8BF7\u51FD\u3002"),
-                    react.createElement(es_image/* default */.A, { width: 200, className: CallForPapers.qrcode, src: qr_namespaceObject })),
+                    react.createElement("p", { className: CallForPapers.imgCenter },
+                        react.createElement(es_image/* default */.A, { width: 200, className: CallForPapers.qrcode, src: qr_namespaceObject }))),
                 react.createElement("li", null, "3.\t\u6709\u5173\u6295\u7A3F\u548C\u53C2\u4F1A\u7684\u95EE\u9898\u8BF7\u901A\u8FC7\u7535\u5B50\u90AE\u4EF6ciel15hnu@gmail.com\u95EE\u8BE2\u3002")),
             react.createElement("div", { className: CallForPapers.listTitle }, "IV.\tCall for Papers and Submission Requirements"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tAll conference participants are required to submit paper abstract. Please specify the author's name (with the presenter\u2019s name highlighted), affiliation, and email address in the abstract."),
                 react.createElement("li", null,
                     react.createElement("p", null, "2.\tSubmission Deadline: Conference participants should submit their detailed abstracts in Chinese (600-800 words) or English (400-600 words) along with the registration receipt (See the attachment or scan the QR code below to download, required for all participants) in Word format to the designated email: ciel15hnu@gmail.com by May 10, 2024. Please format the email title as \u201CCIEL15-Name-Institution-Status (Teacher or Student)\u201D. The organizing committee will arrange for expert review of the abstracts and the official invitation letter will be issued before May 31, 2024."),
-                    react.createElement(es_image/* default */.A, { width: 200, className: CallForPapers.qrcode, src: qr_namespaceObject })),
+                    react.createElement("p", { className: CallForPapers.imgCenter },
+                        react.createElement(es_image/* default */.A, { width: 200, className: CallForPapers.qrcode, src: qr_namespaceObject }))),
                 react.createElement("li", null, "3.\tFor questions regarding conference issues, please contact us via email at ciel15hnu@gmail.com.")),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4E94\u3001\u5927\u4F1A\u4E3B\u65E8\u62A5\u544A\u4E13\u5BB6\u7B80\u4ECB\uFF08\u4EE5\u59D3\u6C0F\u5B57\u6BCD\u4E3A\u5E8F\uFF09"),
             react.createElement("div", { className: CallForPapers.listTitle }, "V.\tKeynote Speakers' Biographies (in alphabetical order by last name)"),
@@ -1268,27 +1297,29 @@ function CallForPapers_CallForPapers() {
                                         "\u6559\u6388"),
                                     react.createElement("div", { className: CallForPapers.desc }, "\u7F8E\u56FD\u660E\u5C3C\u82CF\u8FBE\u5927\u5B66\u8A00\u8BED\u2014\u8BED\u8A00\u2014\u542C\u529B\u79D1\u5B66\u7CFB\u6559\u6388\uFF0C\u7814\u7A76\u9886\u57DF\u5305\u62EC\uFF1A\u8A00\u8BED\u611F\u77E5\u4E0E\u4EA7\u51FA\uFF0C\u53D1\u5C55\u5FC3\u7406\u5B66\u4EE5\u53CA\u8A00\u8BED\u4EA4\u6D41\u7684\u795E\u7ECF\u57FA\u7840\u3002\u4ED6\u540C\u65F6\u62C5\u4EFB\u78C1\u5171\u632F\u7814\u7A76\u4E2D\u5FC3\u3001\u795E\u7ECF\u884C\u4E3A\u53D1\u5C55\u4E2D\u5FC3\u548C\u5E94\u7528\u4E0E\u8F6C\u5316\u611F\u89C9\u79D1\u5B66\u4E2D\u5FC3\u7684\u9996\u5E2D\u7814\u7A76\u5458\u3002\u4ED6\u76EE\u524D\u62C5\u4EFB\u671F\u520ADevelopmental Science\u526F\u4E3B\u7F16\u3001Brain Sciences\u90E8\u95E8\u4E3B\u7F16\uFF0C\u5E76\u5728\u591A\u4E2A\u5176\u4ED6\u671F\u520A\u7684\u7F16\u8F91\u59D4\u5458\u4F1A\u4EFB\u804C\u3002"))))))),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u516D\u3001\u4F1A\u8BAE\u7EC4\u7EC7"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\uFF081\uFF09\u7814\u8BA8\u4F1A\u540D\u8A89\u4E3B\u5E2D\uFF1A\u738B\u58EB\u5143"),
                 react.createElement("li", null, "\uFF082\uFF09\u4E3B\u5E2D\u56E2\uFF1A\u9648\u98DE\u3001\u5F6D\u521A\u3001\u8C2D\u529B\u6D77"),
                 react.createElement("li", null, "\uFF083\uFF09\u7535\u5B50\u90AE\u7BB1\uFF1Aciel15hnu@gmail.com"),
                 react.createElement("li", null, "\uFF084\uFF09\u4F1A\u8BAE\u4E3B\u9875\uFF1Ahttp://www.ciel-15.com")),
             react.createElement("div", { className: CallForPapers.listTitle }, "VI.\tConference Organization"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tHonorary Chair: WANG S-Y.William"),
                 react.createElement("li", null, "2.\tOrganizing Committee: CHEN Fei, PENG Gang, TAN Lihai"),
                 react.createElement("li", null, "3.\tEmail: ciel15hnu@gmail.com"),
                 react.createElement("li", null, "4.\tConference Website: http://www.ciel-15.com")),
             react.createElement("p", null, "\u6709\u5173\u672C\u6B21\u4F1A\u8BAE\u7684\u6700\u65B0\u4FE1\u606F\u8FD8\u5C06\u5728\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u7F51\u7AD9(http://english.hnu.edu.cn/)\uFF0C\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u7F51\u7AD9 (http://www.ciel-15.com)\uFF0C\u4EE5\u53CA\u3010\u8BED\u8A00\u8BA4\u77E5\u4E0E\u5065\u5EB7\u3011\u5FAE\u4FE1\u516C\u4F17\u53F7\u4E0A\u520A\u51FA\uFF0C\u656C\u8BF7\u5173\u6CE8\u3002"),
             react.createElement("p", null, "Information about this conference will also be available on the School of Foreign Languages at Hunan University website (http://english.hnu.edu.cn/), the 15th International Conference in Evolutionary Linguistics (CIEL-15) official website (http://www.ciel-15.com), and the WeChat public account\u3010\u8BED\u8A00\u8BA4\u77E5\u4E0E\u5065\u5EB7\u3011. Please stay updated by checking these platforms."),
+            react.createElement("p", { className: CallForPapers.mt60 }),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)\u4E00\u53F7\u901A\u77E5"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)Notice No.1"),
+            react.createElement("p", { className: CallForPapers.mb60 }),
             react.createElement("p", null, "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08CIEL-15\uFF09\u5C06\u4E8E2024\u5E747\u670812\u65E5\u81F314\u65E5\u5728\u6E56\u5357\u5927\u5B66\u4E3E\u884C\uFF0C\u7531\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u4E3B\u529E\uFF0C\u6DF1\u5733\u5E02\u795E\u7ECF\u79D1\u5B66\u7814\u7A76\u9662\u534F\u529E\u3002"),
             react.createElement("p", null, "The 15th International Conference in Evolutionary Linguistics (CIEL-15) will be held during July 12-14, 2024 at Hunan University. CIEL-15 will be held by School of Foreign Languages, Hunan University, and co-organized by the Shenzhen Institute of Neuroscience."),
             react.createElement("p", null, "\u4F1A\u8BAE\u5C06\u9080\u8BF7\u56FD\u5185\u5916\u76F8\u5173\u9886\u57DF\u6709\u4EE3\u8868\u6027\u548C\u5F71\u54CD\u529B\u7684\u5B66\u8005\u505A\u5927\u4F1A\u7684\u4E3B\u9898\u62A5\u544A\u3002\u4ECA\u606D\u9080\u5404\u4F4D\u5B66\u8005\u540C\u9053\u62D4\u5197\u53C2\u4F1A\uFF0C\u5E76\u656C\u8BF7\u4E8E2024\u5E745\u67081\u65E5\u524D\u5C06\u53C2\u4F1A\u8BBA\u6587\u9898\u76EE\u53CA\u6458\u8981\uFF08\u7EA6400\u2014800\u5B57\uFF09\u4EE5word\u683C\u5F0F\u53D1\u9001\u81F3ciel15hnu@gmail.com\u3002\u4F1A\u8BAE\u6B63\u5F0F\u9080\u8BF7\u51FD\u5C06\u4E8E2024\u5E745\u670831\u65E5\u524D\u53D1\u51FA\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
             react.createElement("p", null, "CIEL-15 will invite scholars of representative and influential figures in the relevant fields from both domestic and international arenas to deliver keynote speeches. We cordially invite all scholars to attend, and kindly request that the titles and abstracts (approximately 400-800 words) of the papers to be presented at the conference be submitted in Word format to ciel15hnu@gmail.com by May 1, 2024. The official invitation letter will be issued before May 31, 2024. The working languages of CIEL-15 are Mandarin and English."),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4F1A\u8BAE\u8BAE\u9898"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\uFF081\uFF09\u6C49\u8BED\u53CA\u5176\u4ED6\u8BED\u8A00\u7684\u7956\u5148\uFF1B"),
                 react.createElement("li", null, "\uFF082\uFF09\u5178\u578B\u548C\u975E\u5178\u578B\u4EBA\u7FA4\u7684\u8BED\u8A00\u53D1\u5C55;"),
                 react.createElement("li", null, "\uFF083\uFF09\u8001\u9F84\u5316\u4E0E\u8BED\u8A00\u9000\u5316\uFF1B"),
@@ -1299,7 +1330,7 @@ function CallForPapers_CallForPapers() {
                 react.createElement("li", null, "\uFF088\uFF09\u5927\u578B\u8BED\u8A00\u6A21\u578B\u7684\u53D1\u5C55\u4E0E\u6F14\u5316\uFF1B"),
                 react.createElement("li", null, "\uFF089\uFF09\u5176\u4ED6\u8BED\u8A00\u76F8\u5173\u7684\u8BAE\u9898\u3002")),
             react.createElement("div", { className: CallForPapers.listTitle }, "Conference topics may include the following:"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tThe proto-language of Chinese and other languages;"),
                 react.createElement("li", null, "2.\tLanguage development in typical and atypical populations;"),
                 react.createElement("li", null, "3.\tAgeing and language degradation;"),
@@ -1310,13 +1341,13 @@ function CallForPapers_CallForPapers() {
                 react.createElement("li", null, "8.\tEvolution of large language model;"),
                 react.createElement("li", null, "9.\tOther language-related research.")),
             react.createElement("div", { className: CallForPapers.listTitle }, "\u4F1A\u8BAE\u7EC4\u7EC7"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "\uFF081\uFF09\u7814\u8BA8\u4F1A\u540D\u8A89\u4E3B\u5E2D\uFF1A\u738B\u58EB\u5143"),
                 react.createElement("li", null, "\uFF082\uFF09\u4E3B\u5E2D\u56E2\uFF1A\u9648\u98DE\u3001\u5F6D\u521A\u3001\u8C2D\u529B\u6D77"),
                 react.createElement("li", null, "\uFF083\uFF09\u7535\u5B50\u90AE\u7BB1\uFF1Aciel15hnu@gmail.com"),
                 react.createElement("li", null, "\uFF084\uFF09\u4F1A\u8BAE\u4E3B\u9875\uFF1Ahttp://www.ciel-15.com")),
             react.createElement("div", { className: CallForPapers.listTitle }, "Conference Organization:"),
-            react.createElement("ul", null,
+            react.createElement("ul", { className: CallForPapers.mt20 },
                 react.createElement("li", null, "1.\tHonorary Chair: WANG S-Y.William"),
                 react.createElement("li", null, "2.\tOrganizing Committee: CHEN Fei, PENG Gang, TAN Lihai"),
                 react.createElement("li", null, "3.\tEmail: ciel15hnu@gmail.com"),
@@ -1328,6 +1359,13 @@ var mapStateToProps = function (_a) {
 };
 /* harmony default export */ const pages_CallForPapers = ((0,es/* connect */.Ng)(mapStateToProps)(CallForPapers_CallForPapers));
 
+
+/***/ }),
+
+/***/ 385:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/map.c36d6c8f..jpg";
 
 /***/ })
 
