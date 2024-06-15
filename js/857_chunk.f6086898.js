@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkreact_cli"] = self["webpackChunkreact_cli"] || []).push([[141],{
+(self["webpackChunkreact_cli"] = self["webpackChunkreact_cli"] || []).push([[857],{
 
-/***/ 6141:
+/***/ 4173:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var react = __webpack_require__(6540);
 ;// CONCATENATED MODULE: ./src/pages/CallForPapers/index.less
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const CallForPapers = ({"researchDirectionWrap":"index_researchDirectionWrap_D1T6ZM","title":"index_title__CJeYK","content":"index_content_Lxrg7e","clear":"index_clear_LcOSLD","mainTitle":"index_mainTitle_oTM5DL","listTitle":"index_listTitle_nSFfkw","partTitle":"index_partTitle_Pj5OnF","mt40":"index_mt40_llBGju","even":"index_even_I6_9qs","odd":"index_odd_h4d_rP","table":"index_table_cX0A65","nameCol":"index_nameCol_MinHZ0","titleCol":"index_titleCol_QqypCw","qrcode":"index_qrcode_bxR4DN","reporterWapper":"index_reporterWapper_jGIBOI","reporterRow":"index_reporterRow_iiDf1s","card":"index_card_cuFs0j","box":"index_box_eqJf57","imgDiv":"index_imgDiv_etUHes","botDiv":"index_botDiv_om74Pd","name":"index_name_NMU9Fn","left":"index_left_ezePn8","desc":"index_desc_ZKjRvD","row1":"index_row1_oZrU6l","row2":"index_row2_G5qK7e","row3":"index_row3_fm5D6D","row4":"index_row4_KJQ6Di","row5":"index_row5_I6tZgN"});
+/* harmony default export */ const CallForPapers = ({"researchDirectionWrap":"index_researchDirectionWrap_D1T6ZM","title":"index_title__CJeYK","content":"index_content_Lxrg7e","clear":"index_clear_LcOSLD","mainTitle":"index_mainTitle_oTM5DL","listTitle":"index_listTitle_nSFfkw","imgCenter":"index_imgCenter_L9rB8g","partTitle":"index_partTitle_Pj5OnF","mt40":"index_mt40_llBGju","even":"index_even_I6_9qs","odd":"index_odd_h4d_rP","table":"index_table_cX0A65","timeTable":"index_timeTable_P9J1Qp","footer":"index_footer_L_ZiDC","nameCol":"index_nameCol_MinHZ0","titleCol":"index_titleCol_QqypCw","qrcode":"index_qrcode_bxR4DN","reporterWapper":"index_reporterWapper_jGIBOI","reporterRow":"index_reporterRow_iiDf1s","card":"index_card_cuFs0j","box":"index_box_eqJf57","imgDiv":"index_imgDiv_etUHes","botDiv":"index_botDiv_om74Pd","name":"index_name_NMU9Fn","left":"index_left_ezePn8","desc":"index_desc_ZKjRvD","row1":"index_row1_oZrU6l","row2":"index_row2_G5qK7e","row3":"index_row3_fm5D6D","row4":"index_row4_KJQ6Di","row5":"index_row5_I6tZgN"});
 // EXTERNAL MODULE: ./node_modules/react-redux/es/index.js + 20 modules
 var es = __webpack_require__(1225);
 // EXTERNAL MODULE: ./node_modules/antd/es/table/index.js + 227 modules
@@ -71,7 +71,16 @@ var zmh = __webpack_require__(8244);
 var zy = __webpack_require__(6722);
 // EXTERNAL MODULE: ./src/asset/reporter/zzl.jpg
 var zzl = __webpack_require__(6229);
+;// CONCATENATED MODULE: ./src/asset/notice3_1.jpg
+const notice3_1_namespaceObject = __webpack_require__.p + "images/notice3_1.502316f0..jpg";
+;// CONCATENATED MODULE: ./src/asset/qr.jpg
+const src_asset_qr_namespaceObject = __webpack_require__.p + "images/qr.0fed63db..jpg";
+;// CONCATENATED MODULE: ./src/asset/map.jpg
+const map_namespaceObject = __webpack_require__.p + "images/map.c36d6c8f..jpg";
 ;// CONCATENATED MODULE: ./src/pages/CallForPapers/index.tsx
+
+
+
 
 
 
@@ -195,6 +204,773 @@ function CallForPapers_CallForPapers() {
             title: 'Unraveling Atypical Auditory and Speech Processing in Chinese Children with Autism Spectrum Disorder: A Multi-faceted Collaborative Approach'
         }
     ];
+    var specialData = [
+        {
+            name: '黄立鹤 教授',
+            university: '同济大学',
+            title: '轻度认知障碍老年人的宏观结构叙事能力研究'
+        },
+        {
+            name: '李俊仁 副教授',
+            university: '台湾师范大学',
+            title: '台湾学童阅读发展跟香港儿童阅读发展的差异'
+        },
+        {
+            name: '李英浩 教授',
+            university: '延边大学',
+            title: '言语产出中声门特征与舌位的协同作用—来自汉语和朝鲜语的证据'
+        },
+        {
+            name: '鲁曼 教授',
+            university: '湖南大学',
+            title: '语言中的此消彼长：土家语差比句标记个案研究'
+        },
+        {
+            name: '罗自群 教授',
+            university: '中央民族大学',
+            title: '怒苏语e31的演化路径'
+        },
+        {
+            name: '曲长亮 教授',
+            university: '大连外国语大学',
+            title: '英国-北欧学派语音演化思想再思考'
+        },
+        {
+            name: '王如蜜 副主任言语治疗师',
+            university: '中南大学湘雅二医院',
+            title: '发展性语言障碍的早期识别'
+        },
+        {
+            name: '王莹莹 教授',
+            university: '湖南大学',
+            title: '语气副词“实在”的量级语义学分析'
+        },
+        {
+            name: '吴君如 副教授',
+            university: '华东师范大学',
+            title: 'Systematic Correspondence in Co-evolving Languages'
+        },
+        {
+            name: '夏俐萍 研究员',
+            university: '中国社会科学院语言研究所',
+            title: '湘鄂赣“浊音走廊”的塞音格局'
+        },
+        {
+            name: '张清芳 教授',
+            university: '中国人民大学',
+            title: '口语句子产生中语法编码老化的认知机制：眼动研究'
+        },
+        {
+            name: '邹嘉彦 教授',
+            university: '香港城市大学/香港科技大学',
+            title: 'Portmanteau Words in Chinese and Covert Variations among MSC and Dialects'
+        },
+    ];
+    var d13morningPlanColumns = [
+        {
+            title: '日期',
+            key: 'date',
+            className: CallForPapers.dateCol,
+            dataIndex: 'date',
+            width: '25%',
+            render: function (text, record, index) {
+                var previousRow = d13morningPlanData[index - 1];
+                var nextRow = d13morningPlanData[index + 1];
+                var rowSpan = 1;
+                if (previousRow && previousRow.date === text) {
+                    return {
+                        children: text,
+                        props: {
+                            rowSpan: 0,
+                        },
+                    };
+                }
+                while (nextRow && nextRow.date === text) {
+                    rowSpan++;
+                    index++;
+                    nextRow = d13morningPlanData[index + 1];
+                }
+                return {
+                    children: text,
+                    props: {
+                        rowSpan: rowSpan,
+                    },
+                };
+            },
+        },
+        {
+            title: '时间',
+            dataIndex: 'time',
+            className: CallForPapers.timeCol,
+            key: 'time',
+            width: '25%',
+        },
+        {
+            title: '内容',
+            dataIndex: 'content',
+            className: CallForPapers.contentCol,
+            key: 'content',
+            width: '25%',
+            render: function (text, record, index) {
+                var previousRow = d13morningPlanData[index - 1];
+                var nextRow = d13morningPlanData[index + 1];
+                var rowSpan = 1;
+                if (previousRow && previousRow.content === text) {
+                    return {
+                        children: text,
+                        props: {
+                            rowSpan: 0,
+                        },
+                    };
+                }
+                while (nextRow && nextRow.content === text) {
+                    rowSpan++;
+                    index++;
+                    nextRow = d13morningPlanData[index + 1];
+                }
+                return {
+                    children: text,
+                    props: {
+                        rowSpan: rowSpan,
+                    },
+                };
+            },
+        },
+        {
+            title: '地点',
+            dataIndex: 'position',
+            className: CallForPapers.positionCol,
+            key: 'position',
+            width: '25%',
+            render: function (text, record, index) {
+                var previousRow = d13morningPlanData[index - 1];
+                var nextRow = d13morningPlanData[index + 1];
+                var rowSpan = 1;
+                if (previousRow && previousRow.position === text) {
+                    return {
+                        children: text,
+                        props: {
+                            rowSpan: 0,
+                        },
+                    };
+                }
+                while (nextRow && nextRow.position === text) {
+                    rowSpan++;
+                    index++;
+                    nextRow = d13morningPlanData[index + 1];
+                }
+                return {
+                    children: text,
+                    props: {
+                        rowSpan: rowSpan,
+                    },
+                };
+            },
+        }
+    ];
+    var d13morningPlanData = [
+        {
+            date: '7月13日上午',
+            time: '8:30-9:00',
+            content: '开幕式、合影',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '9:00-9:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '9:30-10:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '10:00-10:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '10:30-11:00',
+            content: '茶歇',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '11:00-11:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '11:30-12:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月13日上午',
+            time: '12:00-12:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+    ];
+    var d13afternoonPlanColumns = [
+        {
+            title: '午餐、午休',
+            children: [
+                {
+                    title: '日期',
+                    key: 'date',
+                    className: CallForPapers.dateCol,
+                    dataIndex: 'date',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d13afternoonPlanData[index - 1];
+                        var nextRow = d13afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.date === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.date === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d13afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '时间',
+                    dataIndex: 'time',
+                    className: CallForPapers.timeCol,
+                    key: 'time',
+                    width: '25%',
+                },
+                {
+                    title: '内容',
+                    dataIndex: 'content',
+                    className: CallForPapers.contentCol,
+                    key: 'content',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d13afternoonPlanData[index - 1];
+                        var nextRow = d13afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.content === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.content === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d13afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '地点',
+                    dataIndex: 'position',
+                    className: CallForPapers.positionCol,
+                    key: 'position',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d13afternoonPlanData[index - 1];
+                        var nextRow = d13afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.position === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.position === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d13afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                }
+            ],
+        },
+    ];
+    var d13afternoonPlanData = [
+        {
+            date: '7月13日下午',
+            time: '14:30-16:10',
+            content: '特邀口头报告（201）一般口头报告（其他教室）海报展示',
+            position: '湖南大学 复临舍'
+        },
+        {
+            date: '7月13日下午',
+            time: '16:10-16:30',
+            content: '茶歇',
+            position: '湖南大学 复临舍'
+        },
+        {
+            date: '7月13日下午',
+            time: '16:30-17:58',
+            content: '特邀口头报告（201）一般口头报告（其他教室）海报展示',
+            position: '湖南大学 复临舍'
+        },
+    ];
+    var d14morningPlanColumns = [
+        {
+            title: '晚餐',
+            children: [
+                {
+                    title: '日期',
+                    key: 'date',
+                    className: CallForPapers.dateCol,
+                    dataIndex: 'date',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14morningPlanData[index - 1];
+                        var nextRow = d14morningPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.date === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.date === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14morningPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '时间',
+                    dataIndex: 'time',
+                    className: CallForPapers.timeCol,
+                    key: 'time',
+                    width: '25%',
+                },
+                {
+                    title: '内容',
+                    dataIndex: 'content',
+                    className: CallForPapers.contentCol,
+                    key: 'content',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14morningPlanData[index - 1];
+                        var nextRow = d14morningPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.content === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.content === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14morningPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '地点',
+                    dataIndex: 'position',
+                    className: CallForPapers.positionCol,
+                    key: 'position',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14morningPlanData[index - 1];
+                        var nextRow = d14morningPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.position === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.position === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14morningPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                }
+            ],
+        },
+    ];
+    var d14morningPlanData = [
+        {
+            date: '7月14日上午',
+            time: '8:30-9:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '9:00-9:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '9:30-10:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '10:00-10:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '10:30-11:00',
+            content: '茶歇',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '11:00-11:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '11:30-12:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日上午',
+            time: '12:00-12:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+    ];
+    var d14afternoonPlanColumns = [
+        {
+            title: '午餐、午休',
+            children: [
+                {
+                    title: '日期',
+                    key: 'date',
+                    className: CallForPapers.dateCol,
+                    dataIndex: 'date',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14afternoonPlanData[index - 1];
+                        var nextRow = d14afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.date === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.date === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '时间',
+                    dataIndex: 'time',
+                    className: CallForPapers.timeCol,
+                    key: 'time',
+                    width: '25%',
+                },
+                {
+                    title: '内容',
+                    dataIndex: 'content',
+                    className: CallForPapers.contentCol,
+                    key: 'content',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14afternoonPlanData[index - 1];
+                        var nextRow = d14afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.content === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.content === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                },
+                {
+                    title: '地点',
+                    dataIndex: 'position',
+                    className: CallForPapers.positionCol,
+                    key: 'position',
+                    width: '25%',
+                    render: function (text, record, index) {
+                        var previousRow = d14afternoonPlanData[index - 1];
+                        var nextRow = d14afternoonPlanData[index + 1];
+                        var rowSpan = 1;
+                        if (previousRow && previousRow.position === text) {
+                            return {
+                                children: text,
+                                props: {
+                                    rowSpan: 0,
+                                },
+                            };
+                        }
+                        while (nextRow && nextRow.position === text) {
+                            rowSpan++;
+                            index++;
+                            nextRow = d14afternoonPlanData[index + 1];
+                        }
+                        return {
+                            children: text,
+                            props: {
+                                rowSpan: rowSpan,
+                            },
+                        };
+                    },
+                }
+            ],
+        },
+    ];
+    var d14afternoonPlanData = [
+        {
+            date: '7月14日下午',
+            time: '14:30-16:10',
+            content: '特邀口头报告（201）一般口头报告（其他教室）',
+            position: '湖南大学 复临舍'
+        },
+        {
+            date: '7月14日下午',
+            time: '16:10-16:30',
+            content: '茶歇',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日下午',
+            time: '16:30-17:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日下午',
+            time: '17:00-17:30',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日下午',
+            time: '17:30-18:00',
+            content: '主旨报告',
+            position: '湖南大学 逸夫楼'
+        },
+        {
+            date: '7月14日下午',
+            time: '18:00-18:15',
+            content: '闭幕式',
+            position: '湖南大学 逸夫楼'
+        },
+    ];
+    var trafficColumns = [
+        {
+            title: '终点',
+            key: 'des',
+            dataIndex: 'des',
+            width: '25%',
+            render: function (text, record, index) {
+                var previousRow = trafficData[index - 1];
+                var nextRow = trafficData[index + 1];
+                var rowSpan = 1;
+                if (previousRow && previousRow.des === text) {
+                    return {
+                        children: text,
+                        props: {
+                            rowSpan: 0,
+                        },
+                    };
+                }
+                while (nextRow && nextRow.des === text) {
+                    rowSpan++;
+                    index++;
+                    nextRow = trafficData[index + 1];
+                }
+                return {
+                    children: text,
+                    props: {
+                        rowSpan: rowSpan,
+                    },
+                };
+            },
+        },
+        {
+            title: '起点',
+            dataIndex: 'start',
+            key: 'start',
+            width: '25%',
+            render: function (text, record, index) {
+                var previousRow = trafficData[index - 1];
+                var nextRow = trafficData[index + 1];
+                var rowSpan = 1;
+                if (previousRow && previousRow.start === text) {
+                    return {
+                        children: text,
+                        props: {
+                            rowSpan: 0,
+                        },
+                    };
+                }
+                while (nextRow && nextRow.start === text) {
+                    rowSpan++;
+                    index++;
+                    nextRow = trafficData[index + 1];
+                }
+                return {
+                    children: text,
+                    props: {
+                        rowSpan: rowSpan,
+                    },
+                };
+            },
+        },
+        {
+            title: '交通工具',
+            dataIndex: 'way',
+            key: 'way',
+            width: '25%',
+        },
+        {
+            title: '路线及时长',
+            dataIndex: 'time',
+            key: 'time',
+            width: '25%',
+        }
+    ];
+    var trafficData = [
+        {
+            des: '湖南大学南校区',
+            start: '长沙黄花机场',
+            way: '出租车',
+            time: '预计花费 95-110 元，约 1.25 小时'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙黄花机场',
+            way: '地铁',
+            time: '6号线黄花机场站 - 6号线六沟垅站換乘 - 4号线湖南大学站 约 1.25 小时'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙黄花机场',
+            way: '磁浮快线',
+            time: '磁浮快线机场站 - 磁浮快线高铁站换乘 - 4号线湖南大学站 约 1.25 小时'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙高铁南站',
+            way: '出租车',
+            time: '预计花费 45-60 元，时长约 50 分钟'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙高铁南站',
+            way: '地铁',
+            time: '4号线长沙火车南站 - 4号线湖南大学站 约 40 分钟'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙火车站',
+            way: '出租车',
+            time: '预计花费 20-30 元，时长约 30分钟'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙火车站',
+            way: '地铁',
+            time: '2号线长沙火车站 - 2号线溁湾镇站换乘 - 4号线湖南大学站时长 约 30 分钟'
+        },
+        {
+            des: '湖南大学南校区',
+            start: '长沙火车站',
+            way: '公交车',
+            time: '立珊专线:长沙火车站一湖南大学地铁站 约 30 分钟'
+        },
+    ];
     var getRowClassName = function (record, index) {
         return index % 2 === 0 ? CallForPapers.even : CallForPapers.odd;
     };
@@ -203,6 +979,73 @@ function CallForPapers_CallForPapers() {
         react.createElement("div", { className: CallForPapers.content },
             react.createElement("p", { className: CallForPapers.mainTitle }, "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "The 15th International Conference in Evolutionary Linguistics"),
+            react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)\u4E09\u53F7\u901A\u77E5"),
+            react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)Notice No.3"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u4E00\u3001\u4F1A\u8BAE\u4ECB\u7ECD"),
+            react.createElement("p", null, "\u4EE5\u65B0\u6587\u79D1\u5021\u5BFC\u7684\u8DE8\u5B66\u79D1\u89C6\u91CE\uFF0C\u6F14\u5316\u8BED\u8A00\u5B66\u4E0E\u4EBA\u7C7B\u5B66\u3001\u8003\u53E4\u5B66\u3001\u751F\u7269\u5B66\u3001\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u79D1\u5B66\u3001\u5FC3\u7406\u5B66\u548C\u8BA1\u7B97\u673A\u79D1\u5B66\u7B49\u5B66\u79D1\u4EA4\u53C9\u5171\u878D\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08International Conference in Evolutionary Linguistics, CIEL\uFF09\u662F\u7531\u56FD\u9645\u8457\u540D\u8BED\u8A00\u5B66\u5BB6\u738B\u58EB\u5143\u6559\u6388\u9996\u5021\u7684\uFF0C\u81F3\u4ECA\u5DF2\u7ECF\u5728\u6D77\u5185\u5916\u591A\u6240\u8457\u540D\u9AD8\u6821\u6210\u529F\u4E3E\u529E\u4E8614\u5C4A\uFF0C\u4EE5\u5F80\u5728\u5E7F\u5DDE\uFF082009\u5E74\uFF09\u3001\u5929\u6D25\uFF082010\u5E74\u30012015\u5E74\uFF09\u3001\u4E0A\u6D77\uFF082011\u5E74\u30012019\u5E74\uFF09\u3001\u5317\u4EAC\uFF082012\u5E74\uFF09\u3001\u53A6\u95E8\uFF082014\u5E74\uFF09\u3001\u7F8E\u56FD\u5370\u7B2C\u5B89\u7EB3\u5DDE\uFF082016\u5E74\uFF09\u3001\u6606\u660E\uFF082017\u5E74\uFF09\u3001\u5357\u4EAC\uFF082018\u5E74\uFF09\u3001\u5170\u5DDE\uFF082021\u5E74\uFF09\u3001\u6D4E\u5357\uFF082022\u5E74\uFF09\u548C\u9999\u6E2F\uFF082013\u5E74\u30012023\u5E74\uFF09\u5206\u522B\u6210\u529F\u4E3E\u529E\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u65E8\u5728\u5C55\u793A\u8BED\u8A00\u5B66\u7684\u65B0\u4EA4\u53C9\u89C6\u91CE\uFF0C\u5021\u5BFC\u65B0\u7684\u7814\u7A76\u624B\u6BB5\u65B9\u6CD5\uFF0C\u4E3A\u76F8\u5173\u9886\u57DF\u7684\u6D77\u5185\u5916\u5B66\u8005\u4EEC\u63D0\u4F9B\u8DE8\u5B66\u79D1\u56FD\u9645\u4EA4\u6D41\u5408\u4F5C\u673A\u4F1A\uFF0C\u5171\u540C\u63A8\u52A8\u6F14\u5316\u8BED\u8A00\u5B66\u7814\u7A76\u7684\u8FDB\u6B65\u3002"),
+            react.createElement("p", null,
+                "\u7B2C\u5341\u4E94\u5C4A\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08CIEL-15\uFF09\u5C06\u4E8E2024\u5E747\u670812\u65E5\u81F314\u65E5\u5728\u6E56\u5357\u5927\u5B66\u4E3E\u884C\uFF0C\u7531\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u4E3B\u529E\uFF0C\u6DF1\u5733\u5E02\u795E\u7ECF\u79D1\u5B66\u7814\u7A76\u9662\u534F\u529E\u3002",
+                react.createElement("b", null, "\u4F1A\u8BAE\u4E3B\u9898\uFF1A\u65B0\u6587\u79D1\u80CC\u666F\u4E0B\u8BED\u8A00\u6F14\u5316\u7684\u8DE8\u5B66\u79D1\u7814\u7A76\u3002"),
+                "\u4ECA\u606D\u9080\u56FD\u5185\u5916\u4E13\u5BB6\u3001\u5B66\u8005\u3001\u6559\u5E08\u3001\u7814\u7A76\u751F\u62E8\u5197\u4E0E\u4F1A\uFF01"),
+            react.createElement("p", { className: CallForPapers.imgCenter },
+                react.createElement("img", { src: notice3_1_namespaceObject })),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u4E8C\u3001\u4F1A\u8BAE\u8BAE\u9898"),
+            react.createElement("ul", null,
+                react.createElement("li", null, "\uFF081\uFF09\u6C49\u8BED\u53CA\u5176\u4ED6\u8BED\u8A00\u7684\u7956\u5148\uFF1B"),
+                react.createElement("li", null, "\uFF082\uFF09\u5178\u578B\u548C\u975E\u5178\u578B\u4EBA\u7FA4\u7684\u8BED\u8A00\u53D1\u5C55;"),
+                react.createElement("li", null, "\uFF083\uFF09\u8001\u9F84\u5316\u4E0E\u8BED\u8A00\u9000\u5316\uFF1B"),
+                react.createElement("li", null, "\uFF084\uFF09\u97F3\u4E50\u4E0E\u8BED\u8A00\u6F14\u5316;"),
+                react.createElement("li", null, "\uFF085\uFF09\u8BED\u8A00\u3001\u8BA4\u77E5\u4E0E\u5927\u8111\uFF1B"),
+                react.createElement("li", null, "\uFF086\uFF09\u65B9\u8A00\u7684\u5F62\u6210\u4E0E\u6F14\u5316\uFF1B"),
+                react.createElement("li", null, "\uFF087\uFF09\u8BED\u8A00\u7684\u5171\u65F6\u4E0E\u5386\u65F6\u7814\u7A76\uFF1B"),
+                react.createElement("li", null, "\uFF088\uFF09\u5927\u578B\u8BED\u8A00\u6A21\u578B\u7684\u53D1\u5C55\u4E0E\u6F14\u5316\uFF1B"),
+                react.createElement("li", null, "\uFF089\uFF09\u5176\u4ED6\u8BED\u8A00\u76F8\u5173\u7684\u8BAE\u9898\u3002")),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u4E09\u3001\u4F1A\u8BAE\u5F62\u5F0F"),
+            react.createElement("p", { className: CallForPapers.mt40 }, "\u672C\u6B21\u56FD\u9645\u7814\u8BA8\u4F1A\u62DF\u8BBE\u7ACB\u4E09\u5927\u62A5\u544A\u5F62\u5F0F\uFF1A\u4E3B\u65E8\u62A5\u544A\u3001\u53E3\u5934\u62A5\u544A\u3001\u6D77\u62A5\u5C55\u793A\u3002\u7814\u8BA8\u4F1A\u5B66\u672F\u8BED\u8A00\u4E3A\u6C49\u8BED\u666E\u901A\u8BDD\u548C\u82F1\u8BED\u3002"),
+            react.createElement("div", { className: CallForPapers.subTitle }, "1.\t\u5927\u4F1A\u4E3B\u65E8\u62A5\u544A\uFF08\u4EE5\u59D3\u6C0F\u5B57\u6BCD\u4E3A\u5E8F\uFF09"),
+            react.createElement(table/* default */.A, { pagination: false, columns: zhColumns, className: CallForPapers.table, showHeader: false, rowClassName: getRowClassName, dataSource: zhData }),
+            react.createElement("div", { className: CallForPapers.subTitle }, "2.\t\u7279\u9080\u53E3\u5934\u62A5\u544A"),
+            react.createElement("p", null, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7ACB\u7279\u9080\u53E3\u5934\u62A5\u544A\uFF0C\u5177\u4F53\u4FE1\u606F\u5982\u4E0B\uFF08\u6309\u7167\u59D3\u6C0F\u9996\u5B57\u6BCD\u6392\u5E8F\uFF09\uFF1A"),
+            react.createElement(table/* default */.A, { pagination: false, columns: zhColumns, className: CallForPapers.table, showHeader: false, rowClassName: getRowClassName, dataSource: specialData }),
+            react.createElement("p", { className: CallForPapers.subTitle }, "3.\t\u4E00\u822C\u53E3\u5934\u62A5\u544A\u3002"),
+            react.createElement("p", null, "\u672C\u6B21\u4F1A\u8BAE\u8BBE\u7F6E10\u4E2A\u5206\u4F1A\u573A\uFF0C\u5165\u9009\u7684\u53E3\u5934\u6C47\u62A5\u5C06\u5728\u5404\u5206\u4F1A\u573A\u8FDB\u884C\u4EA4\u6D41\uFF0C\u6BCF\u4E2A\u62A5\u544A12\u5206\u949F\u3002"),
+            react.createElement("p", { className: CallForPapers.subTitle }, "4.\t\u6D77\u62A5\u5C55\u793A\u3002"),
+            react.createElement("p", null, "\u5927\u4F1A\u62DF\u8BBE\u7ACB\u4E13\u95E8\u7684\u8BBA\u6587\u6D77\u62A5\u5C55\u793A\u533A\u57DF\uFF0C\u65B9\u4FBF\u4E0E\u4F1A\u4EE3\u8868\u4E00\u5BF9\u4E00\u8BA8\u8BBA\u4EA4\u6D41\u3002"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u56DB\u3001\u4F1A\u8BAE\u8BAE\u7A0B"),
+            react.createElement("p", null, "7\u670812\u65E5\u5168\u5929\u7B7E\u5230\u6CE8\u518C\uFF0C7\u670813-14\u65E5\u5168\u5929\u8FDB\u884C\u4F1A\u8BAE\u62A5\u544A\u53CA\u6D77\u62A5\u5C55\u793A\u3002\u5177\u4F53\u8BAE\u7A0B\u5982\u4E0B\u8868\uFF1A"),
+            react.createElement(table/* default */.A, { pagination: false, columns: d13morningPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d13morningPlanData }),
+            react.createElement(table/* default */.A, { pagination: false, columns: d13afternoonPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d13afternoonPlanData }),
+            react.createElement(table/* default */.A, { pagination: false, columns: d14morningPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d14morningPlanData }),
+            react.createElement(table/* default */.A, { pagination: false, columns: d14afternoonPlanColumns, className: CallForPapers.timeTable, showHeader: true, dataSource: d14afternoonPlanData, footer: function () { return react.createElement("div", { className: CallForPapers.footer }, "\u665A\u9910"); } }),
+            react.createElement("p", { className: CallForPapers.mt40 }),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u4E94\u3001\u4F1A\u8BAE\u8BAE\u7A0B"),
+            react.createElement("p", null, "(1) \u4F1A\u52A1\u8D39\uFF1A\u4EBA\u6C11\u5E01800\u5143\uFF0C\u5168\u65E5\u5236\u7814\u7A76\u751F\u51ED\u5B66\u751F\u8BC1500\u5143\uFF0C\u7B7E\u5230\u5F53\u65E5\u73B0\u573A\u7F34\u8D39\u5E76\u83B7\u53D6\u7535\u5B50\u53D1\u7968\u3002\u4F1A\u52A1\u8D39\u6DB5\u76D6\u53C2\u52A0\u4F1A\u8BAE\u671F\u95F4\u7684\u7528\u9910\u3001\u8336\u6B47\u4EE5\u53CA\u4F1A\u8BAE\u8D44\u6599\u8D39\u3002\u4F4F\u5BBF\u8D39\u548C\u4EA4\u901A\u8D39\u9700\u81EA\u7406\u3002"),
+            react.createElement("p", null, "(2) \u672C\u6B21\u4F1A\u8BAE\u6536\u7A3F\u65E5\u671F\u76EE\u524D\u5DF2\u7ECF\u622A\u6B62\u3002\u4E3A\u6EE1\u8DB3\u5404\u4F4D\u5E08\u751F\u7684\u53C2\u4F1A\u9700\u6C42\uFF0C\u7ECF\u7EC4\u59D4\u4F1A\u5546\u8BAE\uFF0C\u7EE7\u7EED\u63A5\u53D7\u5927\u4F1A\u65C1\u542C\u540D\u989D\uFF0C\u65C1\u542C\u53C2\u4F1A\u8001\u5E08\u6216\u8005\u5B66\u751F\u9700\u7F34\u7EB3\u4F1A\u52A1\u8D39\uFF0C\u65E0\u9700\u63D0\u4EA4\u6458\u8981\uFF0C\u4E5F\u4E0D\u518D\u5B89\u6392\u4F1A\u8BAE\u62A5\u544A\u3002\u6709\u610F\u65C1\u542C\u8005\u8BF7\u4E8E6\u670825\u65E5\u524D\u586B\u5199\u62A5\u540D\u94FE\u63A5(https://www.wjx.top/vm/wkc2hqL.aspx#)\u6216\u626B\u63CF\u4E0B\u65B9\u4E8C\u7EF4\u7801\u5728\u7EBF\u62A5\u540D\uFF0C\u901A\u8FC7\u62A5\u540D\u5BA1\u6838\u540E\uFF0C\u4F1A\u52A1\u4E13\u5BB6\u7EC4\u5C06\u5728\u4E94\u4E2A\u5DE5\u4F5C\u65E5\u5185\u901A\u8FC7\u90AE\u7BB1\u53D1\u51FA\u6B63\u5F0F\u53C2\u4F1A\u901A\u77E5\u548C\u4F1A\u8BAE\u5177\u4F53\u5B89\u6392\u3002"),
+            react.createElement("p", { className: CallForPapers.imgCenter },
+                react.createElement("img", { src: src_asset_qr_namespaceObject })),
+            react.createElement("p", null, "\uFF08\u6CE8\uFF1A\u7531\u4E8E\u65C1\u542C\u5E2D\u4F4D\u4E0E\u573A\u5730\u9650\u5236\uFF0C\u6821\u5916\u62A5\u540D\u4EBA\u6570\u9650\u5B9A\u4E3A60\u4EBA\uFF0C\u5148\u5230\u5148\u5F97\u3002\u5982\u672A\u80FD\u6EE1\u8DB3\u60A8\u7684\u62A5\u540D\u9700\u6C42\uFF0C\u656C\u8BF7\u8C05\u89E3\uFF01\uFF09"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u516D\u3001\u4EA4\u901A\u53CA\u4F4F\u5BBF"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF081\uFF09\u4F1A\u8BAE\u5730\u70B9"),
+            react.createElement("p", null, "\u4E3B\u65E8\u62A5\u544A\uFF1A\u6E56\u5357\u5927\u5B66\u9038\u592B\u697C \u4E3B\u62A5\u544A\u5385"),
+            react.createElement("p", null, "\u53E3\u5934\u6C47\u62A5\uFF1A\u590D\u4E34\u820D201\u3001203\u3001204\u3001208\u3001209"),
+            react.createElement("p", null, "\u6D77\u62A5\u5C55\u793A\uFF1A\u590D\u4E34\u820D\u5927\u5385"),
+            react.createElement("p", { className: CallForPapers.imgCenter },
+                react.createElement("img", { src: map_namespaceObject })),
+            react.createElement("p", { className: CallForPapers.imgCenter }, "\u6E56\u5357\u5927\u5B66\u6821\u56ED\u5730\u56FE"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF082\uFF09\u4EA4\u901A\u65B9\u5F0F"),
+            react.createElement(table/* default */.A, { pagination: false, columns: trafficColumns, className: CallForPapers.table, showHeader: true, dataSource: trafficData }),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF083\uFF09\u4F1A\u8BAE\u63A8\u8350\u9152\u5E97\uFF1A\u6E56\u5357\u5927\u5B66\u96C6\u8D24\u5BBE\u9986"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\u4E03\u3001\u4F1A\u8BAE\u7EC4\u7EC7"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF081\uFF09\u62A5\u540D\u8054\u7CFB\u8001\u5E08\uFF1A"),
+            react.createElement("ul", null,
+                react.createElement("li", null, "\u6731\u8001\u5E08\uFF1A18291849054"),
+                react.createElement("li", null, "\u5321\u8001\u5E08\uFF1A15274656369"),
+                react.createElement("li", null, "\u59DC\u8001\u5E08\uFF1A18273128651")),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF082\uFF09\u7814\u8BA8\u4F1A\u540D\u8A89\u4E3B\u5E2D\uFF1A\u738B\u58EB\u5143"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF083\uFF09\u4E3B\u5E2D\u56E2\uFF1A\u9648\u98DE\u3001\u5F6D\u521A\u3001\u8C2D\u529B\u6D77"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF084\uFF09\u4F1A\u8BAE\u90AE\u7BB1\uFF1Aciel15hnu@gmail.com"),
+            react.createElement("div", { className: CallForPapers.listTitle }, "\uFF085\uFF09\u4F1A\u8BAE\u4E3B\u9875\uFF1Ahttp://www.ciel-15.com"),
+            react.createElement("p", { className: CallForPapers.mt40 }),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)\u4E8C\u53F7\u901A\u77E5"),
             react.createElement("p", { className: CallForPapers.mainTitle }, "(CIEL-15)Notice No.2"),
             react.createElement("p", null, "\u4EE5\u65B0\u6587\u79D1\u5021\u5BFC\u7684\u8DE8\u5B66\u79D1\u89C6\u91CE\uFF0C\u6F14\u5316\u8BED\u8A00\u5B66\u4E0E\u4EBA\u7C7B\u5B66\u3001\u8003\u53E4\u5B66\u3001\u751F\u7269\u5B66\u3001\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u79D1\u5B66\u3001\u5FC3\u7406\u5B66\u548C\u8BA1\u7B97\u673A\u79D1\u5B66\u7B49\u5B66\u79D1\u4EA4\u53C9\u5171\u878D\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\uFF08International Conference in Evolutionary Linguistics, CIEL\uFF09\u662F\u7531\u56FD\u9645\u8457\u540D\u8BED\u8A00\u5B66\u5BB6\u738B\u58EB\u5143\u6559\u6388\u9996\u5021\u7684\uFF0C\u81F3\u4ECA\u5DF2\u7ECF\u5728\u6D77\u5185\u5916\u591A\u6240\u8457\u540D\u9AD8\u6821\u6210\u529F\u4E3E\u529E\u4E8614\u5C4A\uFF0C\u4EE5\u5F80\u5728\u5E7F\u5DDE\uFF082009\u5E74\uFF09\u3001\u5929\u6D25\uFF082010\u5E74\u30012015\u5E74\uFF09\u3001\u4E0A\u6D77\uFF082011\u5E74\u30012019\u5E74\uFF09\u3001\u5317\u4EAC\uFF082012\u5E74\uFF09\u3001\u53A6\u95E8\uFF082014\u5E74\uFF09\u3001\u7F8E\u56FD\u5370\u7B2C\u5B89\u7EB3\u5DDE\uFF082016\u5E74\uFF09\u3001\u6606\u660E\uFF082017\u5E74\uFF09\u3001\u5357\u4EAC\uFF082018\u5E74\uFF09\u3001\u5170\u5DDE\uFF082021\u5E74\uFF09\u3001\u6D4E\u5357\uFF082022\u5E74\uFF09\u548C\u9999\u6E2F\uFF082013\u5E74\u30012023\u5E74\uFF09\u5206\u522B\u6210\u529F\u4E3E\u529E\u3002\u6F14\u5316\u8BED\u8A00\u5B66\u56FD\u9645\u7814\u8BA8\u4F1A\u65E8\u5728\u5C55\u793A\u8BED\u8A00\u5B66\u7684\u65B0\u4EA4\u53C9\u89C6\u91CE\uFF0C\u5021\u5BFC\u65B0\u7684\u7814\u7A76\u624B\u6BB5\u65B9\u6CD5\uFF0C\u4E3A\u76F8\u5173\u9886\u57DF\u7684\u6D77\u5185\u5916\u5B66\u8005\u4EEC\u63D0\u4F9B\u8DE8\u5B66\u79D1\u56FD\u9645\u4EA4\u6D41\u5408\u4F5C\u673A\u4F1A\uFF0C\u5171\u540C\u63A8\u52A8\u6F14\u5316\u8BED\u8A00\u5B66\u7814\u7A76\u7684\u8FDB\u6B65\u3002"),

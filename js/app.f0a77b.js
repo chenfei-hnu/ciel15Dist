@@ -52067,7 +52067,7 @@ var Introduction = lib_default()({
     loading: components_DelayLoading,
 });
 var CallForPapers = lib_default()({
-    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(742), __webpack_require__.e(159), __webpack_require__.e(141)]).then(__webpack_require__.bind(__webpack_require__, 6141)); },
+    loader: function () { return Promise.all(/* import() */[__webpack_require__.e(648), __webpack_require__.e(742), __webpack_require__.e(159), __webpack_require__.e(857)]).then(__webpack_require__.bind(__webpack_require__, 4173)); },
     loading: components_DelayLoading,
 });
 var Attendance = lib_default()({
@@ -54393,7 +54393,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "_chunk." + {"2":"9df44cfe","141":"dae9b9fd","159":"8fcae530","292":"61c0c0f2","300":"39ccec4e","315":"e99258cc","576":"44764817","622":"ab303a4d","648":"aa9fb025","723":"8cdcb248","742":"f07da985","842":"5850f0d3"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + "_chunk." + {"2":"9df44cfe","159":"8fcae530","292":"61c0c0f2","300":"39ccec4e","315":"e99258cc","576":"44764817","622":"ab303a4d","648":"aa9fb025","723":"8cdcb248","742":"f07da985","842":"5850f0d3","857":"f6086898"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54402,7 +54402,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"2":"d671c984","141":"16f9ac2a","292":"c5df9c63","300":"15c885e0","576":"41e2826c","622":"58545e9e","723":"b8047305","842":"bb0f92c5"}[chunkId] + ".chunk.css";
+/******/ 			return "css/" + chunkId + "." + {"2":"d671c984","292":"c5df9c63","300":"15c885e0","576":"41e2826c","622":"58545e9e","723":"b8047305","842":"bb0f92c5","857":"be03370c"}[chunkId] + ".chunk.css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54594,7 +54594,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"2":1,"141":1,"292":1,"300":1,"576":1,"622":1,"723":1,"842":1};
+/******/ 			var cssChunks = {"2":1,"292":1,"300":1,"576":1,"622":1,"723":1,"842":1,"857":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
