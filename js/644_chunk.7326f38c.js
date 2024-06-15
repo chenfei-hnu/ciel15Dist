@@ -36,6 +36,11 @@ var card_style_css = __webpack_require__(2601);
 // EXTERNAL MODULE: ./node_modules/antd/es/col/style/css.js
 var col_style_css = __webpack_require__(9635);
 ;// CONCATENATED MODULE: ./src/pages/Transportation/index.tsx
+var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 
 
 
@@ -52,8 +57,8 @@ var col_style_css = __webpack_require__(9635);
 
 
 function Transportation_Transportation() {
-    var trafficColumns = [
-        {
+    var isSmallScreen = window.innerWidth < 1024;
+    var desArr = isSmallScreen ? [] : [{
             title: '终点',
             key: 'des',
             dataIndex: 'des',
@@ -83,7 +88,8 @@ function Transportation_Transportation() {
                     },
                 };
             },
-        },
+        }];
+    var trafficColumns = __spreadArray(__spreadArray([], desArr), [
         {
             title: '起点',
             dataIndex: 'start',
@@ -130,7 +136,7 @@ function Transportation_Transportation() {
             align: 'center',
             render: function (text) { return react.createElement("span", { dangerouslySetInnerHTML: { __html: text } }); },
         }
-    ];
+    ]);
     var trafficData = [
         {
             des: '湖南大学南校区',
@@ -181,8 +187,7 @@ function Transportation_Transportation() {
             time: '立珊专线:长沙火车站一湖南大学地铁站</br>约 30 分钟'
         },
     ];
-    var enTrafficColumns = [
-        {
+    var enDesArr = isSmallScreen ? [] : [{
             title: 'To',
             key: 'des',
             dataIndex: 'des',
@@ -211,8 +216,9 @@ function Transportation_Transportation() {
                         rowSpan: rowSpan,
                     },
                 };
-            },
-        },
+            }
+        }];
+    var enTrafficColumns = __spreadArray(__spreadArray([], enDesArr), [
         {
             title: 'From',
             dataIndex: 'start',
@@ -259,7 +265,7 @@ function Transportation_Transportation() {
             align: 'center',
             render: function (text) { return react.createElement("span", { dangerouslySetInnerHTML: { __html: text } }); },
         }
-    ];
+    ]);
     var enTrafficData = [
         {
             des: 'Hunan University',
