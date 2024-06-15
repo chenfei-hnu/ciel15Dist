@@ -64,7 +64,9 @@ function Attendance_Attendance() {
             react.createElement("p", { className: Attendance.mt20 }, "Audiences are also welcome to this conference."),
             react.createElement("p", null, "They are only required to pay the registration fee and do not need to submit an abstract or present at the conference. If you are interested, please fill out the registration link before June 25th. After reviewed, we will send a formal email of attendance as well as specific arrangements for the conference within five working days."),
             react.createElement("p", null, "(Note: Due to seat and venue limitations, the number of audiences is limited to 60, on a first come, first served basis. If your registration request cannot be accommodated, we appreciate your understanding.)"),
-            react.createElement("p", null, "Registration link: If we are unable to accommodate your registration request, we appreciate your understanding."),
+            react.createElement("p", null,
+                "Registration link: ",
+                react.createElement("a", { href: "https://www.wjx.top/vm/wkc2hqL.aspx#" }, "https://www.wjx.top/vm/wkc2hqL.aspx#")),
             react.createElement("p", null, "QR code:"),
             react.createElement("p", { className: Attendance.imgCenter },
                 react.createElement("img", { src: attendance2_namespaceObject })))));

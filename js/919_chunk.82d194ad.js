@@ -56,7 +56,6 @@ function Contact_Contact() {
             react.createElement("ul", { className: Contact.mt20 },
                 react.createElement("li", null, "Address: Lushan Road (S), Yuelu District, Changsha, Hunan Province"),
                 react.createElement("li", null, "Zip Code: 410082"),
-                react.createElement("li", null, "\u7535 \u8BDD\uFF1A0731-88821135"),
                 react.createElement("li", null, "Telephone: 0731-88821135"),
                 react.createElement("li", null, "Email: ciel15hnu@gmail.com"),
                 react.createElement("li", null, "Website: http://www.ciel-15.com/")))));
