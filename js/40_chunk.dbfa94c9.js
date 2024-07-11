@@ -27,8 +27,8 @@ function Contact() {
     return (react.createElement("div", { className: ConferenceManual.researchDirectionWrap },
         react.createElement("div", { className: ConferenceManual.title }, "ConferenceManual - \u4F1A\u8BAE\u8D44\u6599"),
         react.createElement("div", { className: ConferenceManual.pdfWrap },
-            react.createElement("a", { href: "https://chenfei-1300076408.cos.ap-guangzhou.myqcloud.com/CIEL15_Abstract.pdf", download: "CIEL15_Abstract.pf", target: "_blank" }, "\u4E0B\u8F7D\u4F1A\u8BAE\u624B\u518C(Conference Manual)"),
-            react.createElement("a", { href: "https://chenfei-1300076408.cos.ap-guangzhou.myqcloud.com/CIEL15_Manual.pdf", download: "CIEL15_Manual.pdf", target: "_blank" }, "\u4E0B\u8F7D\u6458\u8981\u6C47\u7F16(Conference Abstract)"))));
+            react.createElement("a", { href: "https://chenfei-1300076408.cos.ap-guangzhou.myqcloud.com/CIEL15_Manual.pdf", download: "CIEL15_Abstract.pf", target: "_blank" }, "\u4E0B\u8F7D\u4F1A\u8BAE\u624B\u518C(Conference Manual)"),
+            react.createElement("a", { href: "https://chenfei-1300076408.cos.ap-guangzhou.myqcloud.com/CIEL15_Abstract.pdf", download: "CIEL15_Manual.pdf", target: "_blank" }, "\u4E0B\u8F7D\u6458\u8981\u6C47\u7F16(Conference Abstract)"))));
 }
 var mapStateToProps = function (_a) {
     var common = _a.common;
