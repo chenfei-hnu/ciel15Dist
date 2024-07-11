@@ -52078,6 +52078,10 @@ var Speakers = lib_default()({
     loader: function () { return Promise.all(/* import() */[__webpack_require__.e(264), __webpack_require__.e(889), __webpack_require__.e(159), __webpack_require__.e(2)]).then(__webpack_require__.bind(__webpack_require__, 3002)); },
     loading: components_DelayLoading,
 });
+var ConferenceManual = lib_default()({
+    loader: function () { return __webpack_require__.e(/* import() */ 40).then(__webpack_require__.bind(__webpack_require__, 2040)); },
+    loading: components_DelayLoading,
+});
 var Transportation = lib_default()({
     loader: function () { return Promise.all(/* import() */[__webpack_require__.e(264), __webpack_require__.e(644)]).then(__webpack_require__.bind(__webpack_require__, 2341)); },
     loading: components_DelayLoading,
@@ -52118,6 +52122,10 @@ var Accommodation = lib_default()({
     {
         path: '/transportation',
         component: Transportation,
+    },
+    {
+        path: '/conference-manual',
+        component: ConferenceManual,
     },
     {
         path: '/accommodation',
@@ -52289,6 +52297,12 @@ var style_css = __webpack_require__(2588);
         name: '主题报告',
         en: 'Speakers',
         path: '/speakers',
+        list: [],
+    },
+    {
+        name: '会议资料',
+        en: 'ConferenceManual',
+        path: '/conference-manual',
         list: [],
     },
     {
@@ -54393,7 +54407,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "_chunk." + {"2":"a41bb0c3","159":"8fcae530","264":"c8bcfe89","292":"06952ed9","300":"0ff30761","315":"e99258cc","359":"e7314050","622":"ab303a4d","644":"7326f38c","660":"391bc2df","742":"f07da985","889":"5ef666ab","919":"82d194ad"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + "_chunk." + {"2":"a41bb0c3","40":"1d628dbe","159":"8fcae530","264":"c8bcfe89","292":"06952ed9","300":"0ff30761","315":"e99258cc","359":"e7314050","622":"ab303a4d","644":"7326f38c","660":"391bc2df","742":"f07da985","889":"5ef666ab","919":"82d194ad"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54402,7 +54416,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"2":"712f879a","292":"9bf2e736","300":"599384dc","359":"90e47e4c","622":"58545e9e","644":"0a267d7d","660":"ff306bac","919":"54e4846f"}[chunkId] + ".chunk.css";
+/******/ 			return "css/" + chunkId + "." + {"2":"712f879a","40":"1776373a","292":"9bf2e736","300":"599384dc","359":"90e47e4c","622":"58545e9e","644":"0a267d7d","660":"ff306bac","919":"54e4846f"}[chunkId] + ".chunk.css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -54594,7 +54608,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"2":1,"292":1,"300":1,"359":1,"622":1,"644":1,"660":1,"919":1};
+/******/ 			var cssChunks = {"2":1,"40":1,"292":1,"300":1,"359":1,"622":1,"644":1,"660":1,"919":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
